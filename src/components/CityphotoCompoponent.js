@@ -1,11 +1,11 @@
 import React from 'react';
-import { Container, Row, Col } from 'reactstrap';
+import { Col } from 'reactstrap';
 import {
     Card, CardImg, CardBody,
-    CardTitle, CardText, Button
+    CardTitle, CardText
 } from 'reactstrap';
 
-function PhotoMain(props) {
+function CityPhoto(props) {
     let hotelsImages = props.hotelInfo.map((hotel) => {
         return (
 
@@ -26,4 +26,4 @@ function PhotoMain(props) {
             {hotelsImages}
         </React.Fragment>);
 };
-export default PhotoMain;
+export default CityPhoto;

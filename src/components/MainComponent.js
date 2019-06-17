@@ -1,8 +1,13 @@
-import React, { Component } from 'react';
-import ChooseCityPage from './ChooseCityPageComponent';
+import React from 'react';
+import CitiesPage from './CitiespageComponent';
+import HomeSearch from './HomesearchComponent';
 import { HOTELS_INFO } from '../shared/hotelInformation';
+import { Switch, Route, Redirect } from 'react-router-dom';
+import NavBar from './NavbarComponent';
+import Footer from './FooterComponent';
+import { withRouter } from 'react-router-dom';
 
-class Main extends Component {
+class Main extends React.Component {
 
   constructor(props) {
     super(props);
@@ -12,14 +17,38 @@ class Main extends Component {
   }
 
   render() {
-    return (
+    const HomeSearchPage = () => {
+      return (
+        <HomeSearch />
+      );
+    }
 
+    const ShowNav = () => {
+      if (this.props.location.pathname !== '/cities') {
+        return <NavBar />
+      }
+    }
+
+    const ShowFooter = () => {
+      if (this.props.location.pathname !== '/cities') {
+        return <Footer />
+      }
+    }
+
+    return (
       <React.Fragment>
-        <ChooseCityPage hotelInfo={this.state.hotelInfo} />
+        {ShowNav()}
+        <Switch>
+          <Route path='/homesearch' component={HomeSearchPage} />
+          <Route exact path='/cities' component={() => <CitiesPage hotelInfo={this
+            .state.hotelInfo} />} />
+          <Redirect to="/homesearch" />
+        </Switch>
+        {ShowFooter()}
       </React.Fragment>
     );
   }
 
 }
 
-export default Main;
+export default withRouter(Main);
