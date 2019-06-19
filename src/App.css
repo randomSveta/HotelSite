@@ -1,10 +1,27 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 
-body {
-height: 100vh;
+html,  #root {
+min-height: 100vh;
 font-family: 'Quicksand', 'Arial', sans-serif;
+margin:0;
+padding:0;
+
+}
+#row-welcome, #row-button {
+    min-height: 25vh;
+}
+#row-images  {
+    min-height: 50vh;
+}
+.under-nav {
+    padding-top: 10vh;
+    min-height: 80vh;
+}
+
+.search-columns button{
+    width: 100%;
 }
 
 .footer {
-    height: 100px;
+    min-height: 20vh;
 }

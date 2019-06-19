@@ -3,13 +3,13 @@ import { Container, Row, Col } from 'reactstrap';
 import CityPhoto from './CityphotoCompoponent'
 import { Button } from 'reactstrap';
 
-function CitiesPage(props) {
+function Home(props) {
     return (
-        <Container id="container-images">
+        <Container>
             <Row id="row-welcome" className="justify-content-center align-items-center">
                 <Col className="text-center">
-                    <h1>Welcome!</h1>
-                    <p>Choose city</p>
+                    <h1>Welcome to the "Funny Group" Hotels!</h1>
+                    <p>Choose the city!</p>
                 </Col>
             </Row>
             <Row id="row-images" className="justify-content-center align-items-center">
@@ -23,4 +23,4 @@ function CitiesPage(props) {
         </Container>
     )
 };
-export default CitiesPage;
+export default Home;
