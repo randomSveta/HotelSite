@@ -1,36 +1,47 @@
 import React from 'react';
-import CitiesPage from './CitiespageComponent';
-import HomeSearch from './HomesearchComponent';
+import Home from './HomeComponent';
+import Search from './SearchComponent';
+import About from './AboutusComponent';
+import Contacts from './ContactusComponent';
 import { HOTELS_INFO } from '../shared/hotelInformation';
 import { Switch, Route, Redirect } from 'react-router-dom';
 import NavBar from './NavbarComponent';
 import Footer from './FooterComponent';
 import { withRouter } from 'react-router-dom';
+import { ROOMS_INFO } from '../shared/roomsInformation';
 
 class Main extends React.Component {
 
   constructor(props) {
     super(props);
     this.state = {
-      hotelInfo: HOTELS_INFO
+      hotelInfo: HOTELS_INFO,
+      roomsInfo: ROOMS_INFO
     };
   }
 
+
   render() {
-    const HomeSearchPage = () => {
+    
+    const AboutUsPage = () => {
       return (
-        <HomeSearch />
+        <About />
+      );
+    }
+    const ContactUsPage = () => {
+      return (
+        <Contacts/>
       );
     }
 
     const ShowNav = () => {
-      if (this.props.location.pathname !== '/cities') {
+      if (this.props.location.pathname !== '/home') {
         return <NavBar />
       }
     }
 
     const ShowFooter = () => {
-      if (this.props.location.pathname !== '/cities') {
+      if (this.props.location.pathname !== '/home') {
         return <Footer />
       }
     }
@@ -39,10 +50,13 @@ class Main extends React.Component {
       <React.Fragment>
         {ShowNav()}
         <Switch>
-          <Route path='/homesearch' component={HomeSearchPage} />
-          <Route exact path='/cities' component={() => <CitiesPage hotelInfo={this
+          <Route path='/search' component={() => <Search roomsInfo={this
+            .state.roomsInfo} />} />
+          <Route exact path='/home' component={() => <Home hotelInfo={this
             .state.hotelInfo} />} />
-          <Redirect to="/homesearch" />
+            <Route path='/about' component={AboutUsPage} />
+            <Route path='/contacts' component={ContactUsPage} />
+          <Redirect to="/search" />
         </Switch>
         {ShowFooter()}
       </React.Fragment>
