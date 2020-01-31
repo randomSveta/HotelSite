@@ -31,7 +31,7 @@ class NavBar extends React.Component {
       <React.Fragment>
         <Navbar color="dark" dark className="fixed-top" expand="sm">
           <Container>
-            <NavbarBrand href="/home">"Funny Group" Hotels</NavbarBrand>
+            <NavbarBrand href="/">"Funny Group" Hotels</NavbarBrand>
             <NavbarToggler onClick={this.toggle} />
             <Collapse isOpen={this.state.isOpen} navbar>
               <Nav className="ml-auto" navbar>
