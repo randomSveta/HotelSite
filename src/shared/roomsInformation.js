@@ -35,7 +35,7 @@ export const ROOMS_INFO = [
 
     },
     {
-        id: 2,
+        id: 3,
         hotelId: 0,
         roomNumber: 1,
         minGuestsNumber: 1,
@@ -46,7 +46,7 @@ export const ROOMS_INFO = [
 
     },
     {
-        id: 2,
+        id: 4,
         hotelId: 0,
         roomNumber: 1,
         minGuestsNumber: 1,

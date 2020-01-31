@@ -49,10 +49,10 @@ class NavBar extends React.Component {
                 </NavItem>
               </Nav>
               <Nav>
-                <NavItem className="ml-auto" navbar>
+                <NavItem className="ml-auto" navbar="true">
                   <Button outline onClick={this.toggleModal}>
                     Login
-                                    </Button>
+                  </Button>
                 </NavItem>
               </Nav>
 

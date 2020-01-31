@@ -9,8 +9,8 @@ function CityPhoto(props) {
     let hotelsImages = props.hotelInfo.map((hotel) => {
         return (
 
-            <Col xs="12" sm="3" className="text-center">
-                <Card key={hotel.id} onClick="">
+            <Col xs="12" sm="3" className="text-center" key={hotel.id}>
+                <Card onClick="">
                     <CardBody>
                         <CardTitle >{hotel.city}</CardTitle>
                         <CardImg className="img-fluid img-thumbnail rounded" src={hotel.main_photo} alt={hotel.name} />
