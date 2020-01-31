@@ -4,7 +4,7 @@ import Search from './SearchComponent';
 import About from './AboutusComponent';
 import Contacts from './ContactusComponent';
 import { HOTELS_INFO } from '../shared/hotelInformation';
-import { BrowserRouter, Switch, Route, Redirect } from 'react-router-dom';
+import { Switch, Route, Redirect } from 'react-router-dom';
 import NavBar from './NavbarComponent';
 import Footer from './FooterComponent';
 import { withRouter } from 'react-router-dom';
@@ -48,20 +48,18 @@ class Main extends React.Component {
 
     return (
       <React.Fragment>
-        <BrowserRouter>
-          {ShowNav()}
+        {ShowNav()}
 
-          <Switch>
-            <Route path='/search' component={() => <Search roomsInfo={this
-              .state.roomsInfo} />} />
-            <Route exact path='/' component={() => <Home hotelInfo={this
-              .state.hotelInfo} />} />
-            <Route path='/about' component={AboutUsPage} />
-            <Route path='/contacts' component={ContactUsPage} />
-            <Redirect to="/" />
-          </Switch>
-          {ShowFooter()}
-        </BrowserRouter>
+        <Switch>
+          <Route path='/search' component={() => <Search roomsInfo={this
+            .state.roomsInfo} />} />
+          <Route exact path='/' component={() => <Home hotelInfo={this
+            .state.hotelInfo} />} />
+          <Route path='/about' component={AboutUsPage} />
+          <Route path='/contacts' component={ContactUsPage} />
+          <Redirect to="/" />
+        </Switch>
+        {ShowFooter()}
       </React.Fragment>
     );
   }
