@@ -22,7 +22,7 @@ class Main extends React.Component {
 
 
   render() {
-    
+
     const AboutUsPage = () => {
       return (
         <About />
@@ -30,18 +30,18 @@ class Main extends React.Component {
     }
     const ContactUsPage = () => {
       return (
-        <Contacts/>
+        <Contacts />
       );
     }
 
     const ShowNav = () => {
-      if (this.props.location.pathname !== '/home') {
+      if (this.props.location.pathname !== '/') {
         return <NavBar />
       }
     }
 
     const ShowFooter = () => {
-      if (this.props.location.pathname !== '/home') {
+      if (this.props.location.pathname !== '/') {
         return <Footer />
       }
     }
@@ -52,11 +52,11 @@ class Main extends React.Component {
         <Switch>
           <Route path='/search' component={() => <Search roomsInfo={this
             .state.roomsInfo} />} />
-          <Route exact path='/home' component={() => <Home hotelInfo={this
+          <Route exact path='/' component={() => <Home hotelInfo={this
             .state.hotelInfo} />} />
-            <Route path='/about' component={AboutUsPage} />
-            <Route path='/contacts' component={ContactUsPage} />
-          <Redirect to="/search" />
+          <Route path='/about' component={AboutUsPage} />
+          <Route path='/contacts' component={ContactUsPage} />
+          <Redirect to="/" />
         </Switch>
         {ShowFooter()}
       </React.Fragment>
