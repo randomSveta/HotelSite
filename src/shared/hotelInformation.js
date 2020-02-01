@@ -11,7 +11,7 @@ export const HOTELS_INFO = [
             local_phone: "+7 (495) 000-00-00"
         },
         rooms_number: 100,
-        main_photo: "./assets/images/moscow_cookie_hotel_main.png",
+        main_photo: "../.././public/assets/images//moscow_cookie_hotel_main.png",
         //local_time_zone:
 
     },
@@ -27,7 +27,7 @@ export const HOTELS_INFO = [
             local_phone: "+7 (495) 000-00-00"
         },
         rooms_number: 100,
-        main_photo: "./assets/images/moscow_cookie_hotel_main.png",
+        main_photo: "../.././public/assets/images/moscow_cookie_hotel_main.png",
         //local_time_zone:
 
     },
@@ -43,7 +43,7 @@ export const HOTELS_INFO = [
             local_phone: "+7 (495) 000-00-00"
         },
         rooms_number: 100,
-        main_photo: "./assets/images/moscow_cookie_hotel_main.png",
+        main_photo: "../.././public/assets/images//moscow_cookie_hotel_main.png",
         //local_time_zone:
 
     }

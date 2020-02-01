@@ -10,7 +10,7 @@ function CityPhoto(props) {
         return (
 
             <Col xs="12" sm="3" className="text-center" key={hotel.id}>
-                <Card onClick="">
+                <Card>
                     <CardBody>
                         <CardTitle >{hotel.city}</CardTitle>
                         <CardImg className="img-fluid img-thumbnail rounded" src={hotel.main_photo} alt={hotel.name} />
