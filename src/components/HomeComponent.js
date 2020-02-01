@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
 import CityPhoto from './CityphotoCompoponent'
 import { Button } from 'reactstrap';
+import { Link } from 'react-router-dom';
 
 function Home(props) {
     return (
@@ -17,7 +18,7 @@ function Home(props) {
             </Row>
             <Row id="row-button" className="justify-content-center align-items-center">
                 <Col xs="12" sm="9" className="text-center">
-                    <Button color="secondary" size="sm" href="/search" block>I don't want to choose!</Button>
+                    <Link color="secondary" size="sm" to="/search" block>I don't want to choose!</Link>
                 </Col>
             </Row>
         </Container>
