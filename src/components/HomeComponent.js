@@ -17,7 +17,7 @@ function Home(props) {
             </Row>
             <Row id="row-button" className="justify-content-center align-items-center">
                 <Col xs="12" sm="9" className="text-center">
-                    <Link color="secondary" size="sm" to="/search" block>I don't want to choose!</Link>
+                    <Link color="secondary" size="sm" to="/search" >I don't want to choose!</Link>
                 </Col>
             </Row>
         </Container>
