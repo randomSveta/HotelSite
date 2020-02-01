@@ -1,17 +1,18 @@
 {
   "files": {
     "main.css": "/hotel-website/static/css/main.e9fc94b2.chunk.css",
-    "main.js": "/hotel-website/static/js/main.90bad415.chunk.js",
-    "main.js.map": "/hotel-website/static/js/main.90bad415.chunk.js.map",
+    "main.js": "/hotel-website/static/js/main.56fee4fd.chunk.js",
+    "main.js.map": "/hotel-website/static/js/main.56fee4fd.chunk.js.map",
     "runtime~main.js": "/hotel-website/static/js/runtime~main.84068dc3.js",
     "runtime~main.js.map": "/hotel-website/static/js/runtime~main.84068dc3.js.map",
     "static/css/2.09dcd1d5.chunk.css": "/hotel-website/static/css/2.09dcd1d5.chunk.css",
-    "static/js/2.4f42741f.chunk.js": "/hotel-website/static/js/2.4f42741f.chunk.js",
-    "static/js/2.4f42741f.chunk.js.map": "/hotel-website/static/js/2.4f42741f.chunk.js.map",
+    "static/js/2.68fa04ee.chunk.js": "/hotel-website/static/js/2.68fa04ee.chunk.js",
+    "static/js/2.68fa04ee.chunk.js.map": "/hotel-website/static/js/2.68fa04ee.chunk.js.map",
     "index.html": "/hotel-website/index.html",
-    "precache-manifest.6a2e2942e794a69d2014a2c54d937762.js": "/hotel-website/precache-manifest.6a2e2942e794a69d2014a2c54d937762.js",
+    "precache-manifest.67611ff688b6ef51e2ebe4997d86b97c.js": "/hotel-website/precache-manifest.67611ff688b6ef51e2ebe4997d86b97c.js",
     "service-worker.js": "/hotel-website/service-worker.js",
     "static/css/2.09dcd1d5.chunk.css.map": "/hotel-website/static/css/2.09dcd1d5.chunk.css.map",
-    "static/css/main.e9fc94b2.chunk.css.map": "/hotel-website/static/css/main.e9fc94b2.chunk.css.map"
+    "static/css/main.e9fc94b2.chunk.css.map": "/hotel-website/static/css/main.e9fc94b2.chunk.css.map",
+    "static/media/moscow_cookie_hotel_main.png": "/hotel-website/static/media/moscow_cookie_hotel_main.4bcafd01.png"
   }
 }
