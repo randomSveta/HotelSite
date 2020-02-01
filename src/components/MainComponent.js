@@ -21,25 +21,29 @@ export default class Main extends React.Component {
 
 
   render() {
-
     return (
       <React.Fragment>
-
         <Router basename={process.env.PUBLIC_URL}>
           <NavBar />
           <Switch>
-            <Route exact path='/' children={() => <Home hotelInfo={this
-              .state.hotelInfo} />} />
-            <Route path='/search' children={() => <Search roomsInfo={this
-              .state.roomsInfo} />} />
-            <Route path='/about' children={<About />} />
-            <Route path='/contacts' children={<Contacts />} />
+            <Route exact path='/'>
+              <Home hotelInfo={this
+                .state.hotelInfo} />
+            </Route>
+            <Route path='/search'>
+              <Search roomsInfo={this
+                .state.roomsInfo} />
+            </Route>
+            <Route path='/about'>
+              <About />
+            </Route>
+            <Route path='/contacts' >
+              <Contacts />
+            </Route>
             <Redirect to="/" />
           </Switch>
           <Footer />
         </Router>
-
-
       </React.Fragment>
     );
   }
