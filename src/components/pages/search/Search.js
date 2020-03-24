@@ -11,7 +11,8 @@ import {
   Row,
   Col, Table
 } from 'reactstrap';
-import DatePickerForm from './DatepickerComponent';
+import DatePickerForm from './Datepicker';
+import { ROOMS_INFO } from "../../rooms-info";
 
 function RenderRoom({ room }) {
   return (
@@ -51,7 +52,7 @@ class Search extends React.Component {
   }
 
   render() {
-    const roomsList = this.props.roomsInfo.map((room) => {
+    const roomsList = ROOMS_INFO.map((room) => {
       return (
         <RenderRoom room={room} key={room.id} />
       );

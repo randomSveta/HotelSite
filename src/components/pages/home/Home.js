@@ -1,9 +1,10 @@
 import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
-import CityPhoto from './CityphotoCompoponent'
+import CityPhoto from './CityPhoto'
 import { Link } from 'react-router-dom';
 
-function Home(props) {
+
+export default function Home(props) {
     return (
         <Container>
             <Row id="row-welcome" className="justify-content-center align-items-center">
@@ -13,14 +14,13 @@ function Home(props) {
                 </Col>
             </Row>
             <Row id="row-images" className="justify-content-center align-items-center">
-                <CityPhoto hotelInfo={props.hotelInfo} />
+                <CityPhoto />
             </Row>
             <Row id="row-button" className="justify-content-center align-items-center">
                 <Col xs="12" sm="9" className="text-center">
-                    <Link color="secondary" size="sm" to="/search" >I don't want to choose!</Link>
+                    <Link color="secondary" size="sm" to="/search?city=all" >I don't want to choose!</Link>
                 </Col>
             </Row>
         </Container>
     )
 };
-export default Home;

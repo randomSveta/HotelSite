@@ -39,13 +39,13 @@ class NavBar extends React.Component {
                   <NavLink to="/search" activeClassName="active" tag={RRNavLink}>Find a room! </NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink to="/about" activeClassName="active" tag={RRNavLink}>About Us</NavLink>
+                  <NavLink to="/about" activeClassName="active" tag={RRNavLink}>About</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink to="/photo_gallery" activeClassName="active" tag={RRNavLink}>Photo Gallery</NavLink>
+                  <NavLink to="/gallery" activeClassName="active" tag={RRNavLink}>Gallery</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink to="/contacts" activeClassName="active" tag={RRNavLink}>Contact Us</NavLink>
+                  <NavLink to="/contacts" activeClassName="active" tag={RRNavLink}>Contacts</NavLink>
                 </NavItem>
               </Nav>
               <Nav>
