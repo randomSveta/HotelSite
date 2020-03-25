@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
-import { navLinks } from "../pages/pages";
+import { navLinks } from "../navigation/nav-links";
 import "./footer.css"
 
 export default function Footer(props) {
