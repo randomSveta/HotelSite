@@ -26,7 +26,7 @@ export default class Main extends React.Component {
             {routes}
             <Redirect to="/" />
           </Switch>
-          {/*<Footer />*/}
+          <Footer />
         </Router>
       </React.Fragment >
     );

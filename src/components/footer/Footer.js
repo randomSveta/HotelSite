@@ -1,38 +1,32 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { Container, Row, Col } from 'reactstrap';
+import { navLinks } from "../pages/pages";
+import "./footer.css"
 
-function Footer(props) {
+export default function Footer(props) {
+
+    const listItems = navLinks.map(navLink => {
+        return <li className="list-inline-item">{navLink}</li>
+    })
+
     return (
-        <div className='footer bg-dark text-white'>
-            <Container>
-                <Row>
-                    <Col>
-                        <h5>Links</h5>
-                        <ul className="list-unstyled">
-                            <Row>
-                                <Col>
-                                    <li><Link to='/home'>Choose City</Link></li>
-                                    <li><Link to='/search'>Find a room!</Link></li>
-                                    <li><Link to='/about'>About Us</Link></li>
-                                </Col>
-                                <Col>
-
-                                    <li><Link to='/photo_gallery'>Photo Gallery</Link></li>
-                                    <li><Link to='/contacts'>Contact Us</Link></li>
-                                </Col>
-                            </Row>
-
+        <footer className='footer-height w-100 footer-colors'>
+            <Container className="my-0 mx-auto p-0 footer-height">
+                <Row className="m-0 p-0 footer-height justify-content-left align-items-center">
+                    <Col xs="12" md="8" className="col-m-p">
+                        <ul className="list-unstyled list-inline m-0 p-0">
+                            {listItems}
                         </ul>
+                    </Col>
+                    <Col xs="12" md="3" className="col-m-p">
+                        <p className="m-0 p-0 text-right">good_hotels_group@random.sveta</p>
                     </Col>
                 </Row>
             </Container>
-        </div>
+        </footer>
 
     );
 }
-
-export default Footer;
 
 
 

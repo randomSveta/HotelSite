@@ -1,0 +1,11 @@
+.footer-height {
+	height: 10vh;
+}
+.footer-colors {
+	color: white;
+	background-color: rgb(38, 38, 38);
+}
+
+.footer-colors a {
+	color: white;
+}
