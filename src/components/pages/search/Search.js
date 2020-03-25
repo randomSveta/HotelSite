@@ -12,7 +12,7 @@ import {
   Col, Table
 } from 'reactstrap';
 import DatePickerForm from './Datepicker';
-import { ROOMS_INFO } from "../../rooms-info";
+import { ROOMS_INFO } from "../../../hotels-data/rooms-info";
 
 function RenderRoom({ room }) {
   return (
