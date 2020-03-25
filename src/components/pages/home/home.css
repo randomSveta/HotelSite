@@ -1,5 +1,7 @@
 .row-height {
-	height: 30vh;
+	height: calc(
+		(90vh - 20px) / 3 - 10px
+	); /* row margin-bottom 10px, 20px - margin + padding for column*/
 }
 
 .row-m-p {
@@ -29,10 +31,15 @@
 
 .image-size {
 	max-width: 100%;
-	max-height: calc(30vh - 20px);
+	max-height: calc(
+		(90vh - 20px) / 3 - 10px - 10px
+	); /* row height - 10px paddings for inside row */
 }
 
-.container,
-.home-row {
-	min-height: 100vh;
+.container-home,
+.row-home {
+	min-height: 90vh;
+}
+.opacity-08 {
+	opacity: 0.8;
 }
