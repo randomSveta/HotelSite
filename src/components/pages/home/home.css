@@ -34,12 +34,33 @@
 	max-height: calc(
 		(90vh - 20px) / 3 - 10px - 10px
 	); /* row height - 10px paddings for inside row */
+	position: relative;
 }
 
 .container-home,
 .row-home {
 	min-height: 90vh;
 }
-.opacity-08 {
-	opacity: 0.8;
+
+#go-to-search {
+	background-color: rgb(38, 38, 38);
+	font-size: 18px;
+	color: white;
+	padding: 10px;
+	margin: 20px;
+	border-radius: 5px;
+}
+
+.city-name-text {
+	position: absolute;
+	margin: 10px 0 10px 10px;
+	padding: 10px;
+	bottom: 20px;
+	right: 0;
+	border-radius: 5px 0 0 5px;
+	color: rgb(38, 38, 38);
+	font-weight: bold;
+}
+.relative {
+	position: relative;
 }

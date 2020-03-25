@@ -1,9 +1,9 @@
 export const HOTELS_INFO = [
         {
                 id: 0,
-                name: "Nice Hotel",
-                city: "Nice City",
-                adress: "Nice Country, Nice City, Nice St., 22",
+                name: "Nice People",
+                city: "Nicecity",
+                adress: "Nicecountry, Nicecity, Nice St., 22",
                 email: "nice_cookie@random.sveta",
                 contacPhones:
                 {
@@ -11,15 +11,15 @@ export const HOTELS_INFO = [
                         localPhone: "+7 (000) 000-00-00"
                 },
                 roomsNumber: 100,
-                photo: require("../components/pages/home/images/nice.png"),
+                photo: require("../images/home-page/nice.png"),
                 //local_time_zone:
 
         },
         {
                 id: 2,
-                name: "Good",
-                city: "Good City",
-                adress: "Good Country, Good City, Good St., 22",
+                name: "Good People",
+                city: "Goodcity",
+                adress: "Goodcountry, Goodcity, Good St., 22",
                 email: "good_cookie@random.sveta",
                 contactPhones:
                 {
@@ -27,15 +27,15 @@ export const HOTELS_INFO = [
                         localPhone: "+7 (000) 000-00-00"
                 },
                 roomsNumber: 100,
-                photo: require("../components/pages/home/images/good.png"),
+                photo: require("../images/home-page/good.png"),
                 //local_time_zone:
 
         },
         {
                 id: 3,
-                name: "Kind",
-                city: "Kind City",
-                adress: "Kind Country, Kind City, Kind St., 22",
+                name: "Kind People",
+                city: "Kindcity",
+                adress: "Kindcountry, Kindcity, Kind St., 22",
                 email: "kind_cookie@random.sveta",
                 contactPhones:
                 {
@@ -43,7 +43,7 @@ export const HOTELS_INFO = [
                         localPhone: "+7 (000) 000-00-00"
                 },
                 roomsNumber: 100,
-                photo: require("../components/pages/home/images/kind.png"),
+                photo: require("../images/home-page/kind.png"),
                 //local_time_zone:
 
         }
