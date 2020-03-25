@@ -6,7 +6,7 @@ export default function Gallery(props) {
         <Container>
             <Row id="row-welcome" className="justify-content-center align-items-center">
                 <Col className="text-center">
-                    Gallery
+                    <h1>Gallery</h1>
                 </Col>
             </Row>
         </Container>
