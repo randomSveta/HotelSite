@@ -3,26 +3,16 @@
 html,
 #root {
 	min-height: 100vh;
+	width: 100vw;
 	font-family: 'Quicksand', 'Arial', sans-serif;
 	margin: 0;
 	padding: 0;
 }
-#row-welcome,
-#row-button {
-	min-height: 25vh;
-}
-#row-images {
-	min-height: 50vh;
-}
-.under-nav {
-	padding-top: 90px;
-	min-height: 80vh;
-}
 
-.search-columns button {
-	width: 100%;
-}
-
-.footer {
-	min-height: 20vh;
-}
+/*colors
+- dark -> rgb(38, 38, 38)
+- gray -> rgb(102, 102, 102)
+- light blue -> rgb(212, 231, 247)
+- beige -> rgb(252, 230, 207)
+- gold -> rgb(233, 181, 99)
+*/

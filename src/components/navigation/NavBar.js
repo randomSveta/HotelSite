@@ -1,16 +1,7 @@
 import React from 'react';
-import {
-  Collapse,
-  Navbar,
-  NavbarToggler,
-  NavbarBrand,
-  Nav,
-  NavItem,
-  NavLink,
-  Container,
-  Button
-} from 'reactstrap';
-import { NavLink as RRNavLink } from 'react-router-dom';
+import { PAGES } from "../pages/pages";
+import { NavLink } from 'react-router-dom';
+import "./navigation.css";
 
 class NavBar extends React.Component {
   constructor(props) {
@@ -26,40 +17,21 @@ class NavBar extends React.Component {
       isOpen: !this.state.isOpen
     });
   }
+
+
   render() {
+    const navLinks = PAGES.map((page, i) => {
+      return (
+        <NavLink to={page.url} exact={page.title === "Home" ? true : false} key={i} id={page.title.toLowerCase()}>{page.title}</NavLink>
+      );
+    });
+
     return (
       <React.Fragment>
-        <Navbar color="dark" dark className="fixed-top" expand="sm">
-          <Container>
-            <NavbarBrand href="/">"Funny Group" Hotels</NavbarBrand>
-            <NavbarToggler onClick={this.toggle} />
-            <Collapse isOpen={this.state.isOpen} navbar>
-              <Nav className="ml-auto" navbar>
-                <NavItem>
-                  <NavLink to="/search" activeClassName="active" tag={RRNavLink}>Find a room! </NavLink>
-                </NavItem>
-                <NavItem>
-                  <NavLink to="/about" activeClassName="active" tag={RRNavLink}>About</NavLink>
-                </NavItem>
-                <NavItem>
-                  <NavLink to="/gallery" activeClassName="active" tag={RRNavLink}>Gallery</NavLink>
-                </NavItem>
-                <NavItem>
-                  <NavLink to="/contacts" activeClassName="active" tag={RRNavLink}>Contacts</NavLink>
-                </NavItem>
-              </Nav>
-              <Nav>
-                <NavItem className="ml-auto" navbar="true">
-                  <Button outline onClick={this.toggleModal}>
-                    Login
-                  </Button>
-                </NavItem>
-              </Nav>
-
-            </Collapse>
-          </Container>
-        </Navbar>
-      </React.Fragment>
+        <nav id="side-navigation" className="side-nav overflow-hidden">
+          {navLinks}
+        </nav>
+      </React.Fragment >
     );
   }
 }

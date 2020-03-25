@@ -1,0 +1,52 @@
+#side-navigation {
+	position: absolute;
+	right: 0;
+	top: 0;
+	min-height: 90vh;
+	width: 20vw;
+}
+
+#side-navigation a {
+	position: absolute;
+	right: -50px;
+	transition: 0.5s;
+	padding: 10px;
+	margin: 2px 0;
+	width: 100px;
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
+	border-radius: 5px 0 0 5px;
+}
+
+#side-navigation a:hover {
+	right: 0;
+}
+
+#home {
+	top: 10px;
+	background-color: rgb(38, 38, 38);
+}
+#search {
+	top: 70px;
+	background-color: rgb(38, 38, 38);
+}
+
+#about {
+	top: 130px;
+	background-color: rgb(38, 38, 38);
+}
+
+#gallery {
+	top: 190px;
+	background-color: rgb(38, 38, 38);
+}
+
+#contacts {
+	top: 250px;
+	background-color: rgb(38, 38, 38);
+}
+
+#side-navigation .active {
+	right: 0;
+}

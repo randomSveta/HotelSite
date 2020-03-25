@@ -1,0 +1,38 @@
+.row-height {
+	height: 30vh;
+}
+
+.row-m-p {
+	margin: 0 0 10px 0;
+	padding: 5px;
+}
+.col-m-p {
+	margin: 5px;
+	padding: 5px;
+}
+
+.dark-color-bg {
+	background-color: rgb(38, 38, 38);
+}
+.gray-color-bg {
+	background-color: rgb(102, 102, 102);
+}
+.blue-color-bg {
+	background-color: rgb(212, 231, 247);
+}
+.beige-color-bg {
+	background-color: rgb(252, 230, 207);
+}
+.gold-color-bg {
+	background-color: rgb(233, 181, 99);
+}
+
+.image-size {
+	max-width: 100%;
+	max-height: calc(30vh - 20px);
+}
+
+.container,
+.home-row {
+	min-height: 100vh;
+}
