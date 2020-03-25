@@ -11,7 +11,7 @@ export const HOTELS_INFO = [
                         localPhone: "+7 (000) 000-00-00"
                 },
                 roomsNumber: 100,
-                photo: require("./pages/home/images/nice.png"),
+                photo: require("../components/pages/home/images/nice.png"),
                 //local_time_zone:
 
         },
@@ -27,7 +27,7 @@ export const HOTELS_INFO = [
                         localPhone: "+7 (000) 000-00-00"
                 },
                 roomsNumber: 100,
-                photo: require("./pages/home/images/good.png"),
+                photo: require("../components/pages/home/images/good.png"),
                 //local_time_zone:
 
         },
@@ -43,7 +43,7 @@ export const HOTELS_INFO = [
                         localPhone: "+7 (000) 000-00-00"
                 },
                 roomsNumber: 100,
-                photo: require("./pages/home/images/kind.png"),
+                photo: require("../components/pages/home/images/kind.png"),
                 //local_time_zone:
 
         }
