@@ -9,6 +9,7 @@
 #side-navigation a,
 #side-navigation button {
 	position: absolute;
+	color: white;
 	right: -50px;
 	transition: 0.5s;
 	padding: 10px;
@@ -16,7 +17,6 @@
 	width: 100px;
 	text-decoration: none;
 	font-size: 18px;
-	color: white;
 	border-radius: 5px 0 0 5px;
 	z-index: 10;
 }
@@ -58,4 +58,7 @@
 
 #side-navigation .active {
 	right: 0;
+	background-color: rgb(212, 231, 247);
+	color: rgb(38, 38, 38);
+	font-weight: bold;
 }
