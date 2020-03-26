@@ -26,39 +26,40 @@
 	right: 0;
 }
 
-#home {
+#home-navlink-sidenav {
 	top: 8px;
-	background-color: rgb(38, 38, 38);
 }
-#search {
+#search-navlink-sidenav {
 	top: 68px;
-	background-color: rgb(38, 38, 38);
 }
 
-#about {
+#about-navlink-sidenav {
 	top: 128px;
-	background-color: rgb(38, 38, 38);
 }
 
-#gallery {
+#gallery-navlink-sidenav {
 	top: 188px;
-	background-color: rgb(38, 38, 38);
 }
 
-#contacts {
+#contacts-navlink-sidenav {
 	top: 248px;
-	background-color: rgb(38, 38, 38);
 }
 
 #login-button {
 	top: 308px;
-	background-color: rgb(102, 102, 102);
 	border: none;
 }
 
 #side-navigation .active {
 	right: 0;
 	background-color: rgb(212, 231, 247);
+	color: rgb(38, 38, 38);
+	font-weight: bold;
+}
+
+#about-navlink-sidenav.active {
+	right: 0;
+	background-color: rgb(233, 181, 99);
 	color: rgb(38, 38, 38);
 	font-weight: bold;
 }

@@ -1,11 +1,16 @@
 .footer-height {
 	height: 10vh;
 }
-.footer-colors {
+
+.text-white a {
 	color: white;
-	background-color: rgb(38, 38, 38);
 }
 
-.footer-colors a {
-	color: white;
+#footer .nav-link {
+	margin: 0 10px 0 0;
+	padding: 10px 10px 10px 0;
+}
+
+#footer .nav-link:hover {
+	text-decoration: underline;
 }
