@@ -1,6 +1,9 @@
 import React from 'react';
-import { navLinks } from "../navigation/nav-links";
+import NavLinkButtonsGroup from './NavLinkButtonsGroup';
+
+
 import "./navigation.css";
+
 
 export default class NavBar extends React.Component {
   constructor(props) {
@@ -19,11 +22,13 @@ export default class NavBar extends React.Component {
 
 
   render() {
+
+
     return (
       <React.Fragment>
         <nav id="side-navigation" className="side-nav overflow-hidden">
-          {navLinks}
-          <button id="login-button">Login</button>
+          <NavLinkButtonsGroup place="sidenav" />
+          <button id="login-button" className="gray-color-bg">Login</button>
         </nav>
       </React.Fragment >
     );

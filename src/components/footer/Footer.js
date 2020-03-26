@@ -1,21 +1,19 @@
 import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
-import { navLinks } from "../navigation/nav-links";
+
+import NavLinkButtonsGroup from '../navigation/NavLinkButtonsGroup';
+
 import "./footer.css"
 
 export default function Footer(props) {
 
-    const listItems = navLinks.map(navLink => {
-        return <li className="list-inline-item">{navLink}</li>
-    })
-
     return (
-        <footer className='footer-height w-100 footer-colors'>
+        <footer id="footer" className='footer-height w-100 dark-color-bg text-white'>
             <Container className="my-0 mx-auto p-0 footer-height">
                 <Row className="m-0 p-0 footer-height justify-content-left align-items-center">
                     <Col xs="12" md="8" className="col-m-p">
                         <ul className="list-unstyled list-inline m-0 p-0">
-                            {listItems}
+                            <NavLinkButtonsGroup place="footer" />
                         </ul>
                     </Col>
                     <Col xs="12" md="3" className="col-m-p">

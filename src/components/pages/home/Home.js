@@ -21,7 +21,7 @@ export default function Home(props) {
 
     const citiesRooms = HOTELS_INFO.map((hotel, i) => {
         return (
-            <li>{hotel.city}: {i + 5}</li>
+            <li key={i}>{hotel.city}: {i + 5}</li>
         );
 
     });
@@ -31,7 +31,7 @@ export default function Home(props) {
     return (
         <Container className="p-0 my-0 mx-auto  container-home">
             <Row className="m-0 p-0 row-home justify-content-left align-items-start">
-                <Col md="3" className="text-center col-m-p">
+                <Col xs="12" md="3" className="text-center col-m-p">
                     <Row className="row-m-p row-height gold-color-bg justify-content-center align-items-center">
                         <Col xs="12" className="m-0 p-0">
                             <h1>Welcome!</h1>
