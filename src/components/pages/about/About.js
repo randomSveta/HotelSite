@@ -53,7 +53,7 @@ function About(props) {
                             A
                         </Col>
                     </Row>
-                    <Row className="row-m-p text-justify row-height justify-content-center align-items-center beige-color-bg">
+                    <Row className="row-m-p text-justify justify-content-center align-items-center beige-color-bg">
                         <Col xs="12" md="3" className="col-m-p beige-color-bg">
                             A
                         </Col>

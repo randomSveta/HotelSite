@@ -3,7 +3,7 @@ import { Container, Row, Col } from 'reactstrap';
 import CityPhoto from './CityPhoto'
 import { HOTELS_INFO } from "../../../hotels-data/hotels-info";
 import { Link } from "react-router-dom";
-import "./home.css";
+import "../../../styles-css/home.css";
 
 
 export default function Home(props) {
@@ -29,8 +29,8 @@ export default function Home(props) {
     const logoURL = require("../../../images/hotels-logo.png");
 
     return (
-        <Container className="p-0 my-0 mx-auto  container-home">
-            <Row className="m-0 p-0 row-home justify-content-left align-items-start">
+        <Container className="p-0 my-0 mx-auto  main-container">
+            <Row className="m-0 p-0 main-row justify-content-left align-items-start">
                 <Col xs="12" md="3" className="text-center col-m-p">
                     <Row className="row-m-p row-height gold-color-bg justify-content-center align-items-center">
                         <Col xs="12" className="m-0 p-0">
@@ -46,8 +46,8 @@ export default function Home(props) {
                                 </Col>
                             </Row>
                             <Row className="m-0 p-0 bg-white h-50 align-items-center justify-content-center" >
-                                <Col xs="6"><p className="m-0 p-0">available rooms</p></Col>
-                                <Col xs="6">
+                                <Col xs="12" md="6"><p className="m-0 p-0">available rooms</p></Col>
+                                <Col xs="12" md="6">
                                     <ul className="list-unstyled m-0 p-0 text-left">
                                         {citiesRooms}
                                     </ul>

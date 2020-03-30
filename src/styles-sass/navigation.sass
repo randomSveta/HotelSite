@@ -1,0 +1,55 @@
+@use 'colors'
+@use 'sizes'
+
+$top: sizes.$margin + sizes.$padding
+
+#side-navigation 
+	position: absolute 
+	right: 0 
+	top: 0 
+	min-height: sizes.$main-container-height
+	width: 6.25rem 
+	.active 
+		right: 0 
+		background-color: colors.$blue 
+		color: colors.$dark
+		font-weight: bold 
+
+#side-navigation a,
+#side-navigation button 
+	position: absolute 
+	color: colors.$white 
+	right: -3.125rem 
+	transition: 0.5s 
+	padding: sizes.$padding * 2  
+	margin: 0 
+	width: 6.25rem 
+	text-decoration: none 
+	font-size: 1.125rem 
+	border-radius: 0.3125rem 0 0 0.3125rem
+	z-index: 10 
+
+#side-navigation a:hover,
+#side-navigation button:hover 
+	right: 0 
+
+#home-navlink-sidenav 
+	top: $top
+
+#search-navlink-sidenav 
+	top: $top + 3.75rem
+
+#about-navlink-sidenav 
+	top: $top + 7.5rem 
+	&.active 
+		background-color: colors.$gold 
+
+#gallery-navlink-sidenav 
+	top:   $top + 11.25rem
+
+#contacts-navlink-sidenav 
+	top:  $top + 15rem 
+
+#login-button 
+	top:   $top + 18.75rem
+	border: none 

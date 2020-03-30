@@ -2,7 +2,7 @@ import React from 'react';
 import NavLinkButtonsGroup from './NavLinkButtonsGroup';
 
 
-import "./navigation.css";
+import "../../styles-css/navigation.css";
 
 
 export default class NavBar extends React.Component {

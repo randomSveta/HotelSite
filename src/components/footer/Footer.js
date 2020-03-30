@@ -3,7 +3,7 @@ import { Container, Row, Col } from 'reactstrap';
 
 import NavLinkButtonsGroup from '../navigation/NavLinkButtonsGroup';
 
-import "./footer.css"
+import "../../styles-css/footer.css";
 
 export default function Footer(props) {
 

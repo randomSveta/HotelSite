@@ -1,0 +1,23 @@
+/* colors */
+/* elements height */
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.footer-height {
+  height: 3.75rem;
+}
+
+#footer .nav-link {
+  margin: 0 0.625rem 0 0;
+  padding: 0.3125rem 0.3125rem 0.3125rem 0;
+  color: white;
+}
+#footer .nav-link:hover {
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=footer.css.map */

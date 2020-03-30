@@ -1,0 +1,45 @@
+@use 'colors'
+@use 'sizes'
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap')
+
+html, #root, body
+  min-height: sizes.$body-min-height
+  width: 100%
+  font-family: 'Quicksand', 'Arial', sans-serif
+  margin: 0
+  padding: 0
+
+#root
+  position: relative
+
+.main-container, .main-row
+  height: sizes.$main-container-height
+
+.row-height
+  height: sizes.$row-height
+
+.row-m-p
+  margin: 0 0 sizes.$margin 0
+  padding: sizes.$padding
+
+.col-m-p
+  margin: sizes.$margin
+  padding: sizes.$padding
+
+.dark-color-bg
+  background-color: colors.$dark
+
+.gray-color-bg
+  background-color: colors.$gray
+
+.blue-color-bg
+  background-color: colors.$blue
+
+.beige-color-bg
+  background-color: colors.$beige
+
+.gold-color-bg
+  background-color: colors.$gold
+
+.relative
+  position: relative

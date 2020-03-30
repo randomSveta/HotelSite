@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand&display=swap");
+/* colors */
+/* elements height */
+html, #root, body {
+  min-height: 100vh;
+  width: 100%;
+  font-family: "Quicksand", "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  position: relative;
+}
+
+.main-container, .main-row {
+  height: calc(100vh - 3.75rem);
+}
+
+.row-height {
+  height: calc((100vh - 3.75rem - calc(2*0.625rem))/ 3 - calc(0.3125rem*4));
+}
+
+.row-m-p {
+  margin: 0 0 0.625rem 0;
+  padding: 0.3125rem;
+}
+
+.col-m-p {
+  margin: 0.625rem;
+  padding: 0.3125rem;
+}
+
+.dark-color-bg {
+  background-color: #262626;
+}
+
+.gray-color-bg {
+  background-color: #666666;
+}
+
+.blue-color-bg {
+  background-color: #d4e7f7;
+}
+
+.beige-color-bg {
+  background-color: #fce6cf;
+}
+
+.gold-color-bg {
+  background-color: #e9b563;
+}
+
+.relative {
+  position: relative;
+}
+
+/*# sourceMappingURL=basic.css.map */

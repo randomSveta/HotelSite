@@ -1,0 +1,21 @@
+@use 'colors'
+@use 'sizes'
+
+footer
+  position: absolute
+  bottom: 0
+  left: 0
+  width: 100%
+
+.footer-height
+  height: sizes.$footer-height
+  
+  
+
+#footer .nav-link
+  margin: 0 sizes.$margin 0 0
+  padding: sizes.$padding  sizes.$padding  sizes.$padding 0
+  color: colors.$white
+
+  &:hover
+    text-decoration: underline
