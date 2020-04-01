@@ -1,21 +1,31 @@
 @use 'colors'
 @use 'sizes'
+@use 'media-points'
+@import 'basic'
 
-footer
+.main-row-f
+  @extend %main
+  min-height: sizes.$footer-height-md
+  padding: 0
+
+#footer
   position: absolute
   bottom: 0
   left: 0
   width: 100%
+  height: sizes.$footer-height-md
 
-.footer-height
-  height: sizes.$footer-height
+  .nav-link-footer
+    margin: 0 sizes.$margin 0 0
+    padding: sizes.$padding  sizes.$padding  sizes.$padding 0
+    color: colors.$white
+    
+    &:hover
+      text-decoration: underline
+
+
+@media (max-width: media-points.$layout-breakpoint-md)
   
+  #footer
+    height: sizes.$footer-height-xs
   
-
-#footer .nav-link
-  margin: 0 sizes.$margin 0 0
-  padding: sizes.$padding  sizes.$padding  sizes.$padding 0
-  color: colors.$white
-
-  &:hover
-    text-decoration: underline

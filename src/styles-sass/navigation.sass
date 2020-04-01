@@ -3,20 +3,7 @@
 
 $top: sizes.$margin + sizes.$padding
 
-#side-navigation 
-	position: absolute 
-	right: 0 
-	top: 0 
-	min-height: sizes.$main-container-height
-	width: 6.25rem 
-	.active 
-		right: 0 
-		background-color: colors.$blue 
-		color: colors.$dark
-		font-weight: bold 
-
-#side-navigation a,
-#side-navigation button 
+%side-navigation-buttons
 	position: absolute 
 	color: colors.$white 
 	right: -3.125rem 
@@ -27,27 +14,41 @@ $top: sizes.$margin + sizes.$padding
 	text-decoration: none 
 	font-size: 1.125rem 
 	border-radius: 0.3125rem 0 0 0.3125rem
-	z-index: 10 
 
-#side-navigation a:hover,
-#side-navigation button:hover 
+#side-navigation 
+	position: fixed 
 	right: 0 
+	top: 0 
+	height: calc(#{sizes.$body-min-height} + #{$top})
+	width: 6.25rem 
+	z-index: 10
 
-#home-navlink-sidenav 
+	.active 
+		right: 0 
+		background-color: colors.$blue 
+		color: colors.$dark
+		font-weight: bold 
+		
+	.nav-link-side
+		@extend %side-navigation-buttons
+		&:hover
+			right: 0
+
+#home-navlink-side
 	top: $top
 
-#search-navlink-sidenav 
+#search-navlink-side
 	top: $top + 3.75rem
 
-#about-navlink-sidenav 
+#about-navlink-side
 	top: $top + 7.5rem 
 	&.active 
 		background-color: colors.$gold 
 
-#gallery-navlink-sidenav 
+#gallery-navlink-side
 	top:   $top + 11.25rem
 
-#contacts-navlink-sidenav 
+#contacts-navlink-side
 	top:  $top + 15rem 
 
 #login-button 

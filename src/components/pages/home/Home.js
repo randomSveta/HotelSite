@@ -10,7 +10,7 @@ export default function Home(props) {
 
     const citiesPhotos = HOTELS_INFO.map((hotel, i) => {
         return (
-            <Row className="row-m-p row-height justify-content-center align-items-center gray-color-bg opacity-08" key={i}>
+            <Row className="row-m-p row-height justify-content-center align-items-center gray-bg" key={i}>
                 <Col xs="12" className="m-0 p-0">
                     <CityPhoto hotel={hotel} />
                 </Col>
@@ -29,16 +29,16 @@ export default function Home(props) {
     const logoURL = require("../../../images/hotels-logo.png");
 
     return (
-        <Container className="p-0 my-0 mx-auto  main-container">
-            <Row className="m-0 p-0 main-row justify-content-left align-items-start">
+        <Container className="main-container">
+            <Row className="main-row justify-content-left align-items-start">
                 <Col xs="12" md="3" className="text-center col-m-p">
-                    <Row className="row-m-p row-height gold-color-bg justify-content-center align-items-center">
+                    <Row className="row-m-p row-height gold-bg justify-content-center align-items-center">
                         <Col xs="12" className="m-0 p-0">
                             <h1>Welcome!</h1>
                             <h3>choose the city</h3>
                         </Col>
                     </Row>
-                    <Row className="row-m-p row-height gray-color-bg justify-content-center align-items-center">
+                    <Row className="row-m-p row-height gray-bg justify-content-center align-items-center">
                         <Col xs="12" className="m-0 p-0 h-100">
                             <Row className="m-0 p-0 h-50 align-items-center">
                                 <Col xs="12" className="m-0 p-0">
@@ -56,7 +56,7 @@ export default function Home(props) {
 
                         </Col>
                     </Row>
-                    <Row className="row-m-p row-height blue-color-bg justify-content-center align-items-center">
+                    <Row className="row-m-p row-height blue-bg justify-content-center align-items-center">
                         <Col xs="12" className="m-0 p-0">
                             <Link to={"/"} exact="true">
                                 <img className="image-size img-fluid overflow-hidden m-0 p-0" src={logoURL} alt="logo" />

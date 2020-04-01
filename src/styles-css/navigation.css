@@ -1,21 +1,6 @@
 /* colors */
 /* elements height */
-#side-navigation {
-  position: absolute;
-  right: 0;
-  top: 0;
-  min-height: calc(100vh - 3.75rem);
-  width: 6.25rem;
-}
-#side-navigation .active {
-  right: 0;
-  background-color: #d4e7f7;
-  color: #262626;
-  font-weight: bold;
-}
-
-#side-navigation a,
-#side-navigation button {
+#side-navigation .nav-link-side {
   position: absolute;
   color: white;
   right: -3.125rem;
@@ -26,34 +11,46 @@
   text-decoration: none;
   font-size: 1.125rem;
   border-radius: 0.3125rem 0 0 0.3125rem;
-  z-index: 10;
 }
 
-#side-navigation a:hover,
-#side-navigation button:hover {
+#side-navigation {
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: calc(100vh + 0.9375rem);
+  width: 6.25rem;
+  z-index: 10;
+}
+#side-navigation .active {
+  right: 0;
+  background-color: #d4e7f7;
+  color: #262626;
+  font-weight: bold;
+}
+#side-navigation .nav-link-side:hover {
   right: 0;
 }
 
-#home-navlink-sidenav {
+#home-navlink-side {
   top: 0.9375rem;
 }
 
-#search-navlink-sidenav {
+#search-navlink-side {
   top: 4.6875rem;
 }
 
-#about-navlink-sidenav {
+#about-navlink-side {
   top: 8.4375rem;
 }
-#about-navlink-sidenav.active {
+#about-navlink-side.active {
   background-color: #e9b563;
 }
 
-#gallery-navlink-sidenav {
+#gallery-navlink-side {
   top: 12.1875rem;
 }
 
-#contacts-navlink-sidenav {
+#contacts-navlink-side {
   top: 15.9375rem;
 }
 

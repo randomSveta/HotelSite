@@ -27,8 +27,8 @@ export default class NavBar extends React.Component {
     return (
       <React.Fragment>
         <nav id="side-navigation" className="side-nav overflow-hidden">
-          <NavLinkButtonsGroup place="sidenav" />
-          <button id="login-button" className="gray-color-bg">Login</button>
+          <NavLinkButtonsGroup place="side" />
+          <button id="login-button" className="nav-link-side gray-bg">Login</button>
         </nav>
       </React.Fragment >
     );
