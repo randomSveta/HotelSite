@@ -1,23 +1,12 @@
 import React from 'react';
-import { Container, Row, Col } from 'reactstrap';
-import CityPhoto from './CityPhoto'
+import { Container, Row, Col } from 'reactstrap'
 import { HOTELS_INFO } from "../../../hotels-data/hotels-info";
 import { Link } from "react-router-dom";
 import "../../../styles-css/home.css";
+import CityPhotoDisplay from './CityPhotosDisplay';
 
 
 export default function Home(props) {
-
-    const citiesPhotos = HOTELS_INFO.map((hotel, i) => {
-        return (
-            <Row className="row-m-p row-height justify-content-center align-items-center gray-bg" key={i}>
-                <Col xs="12" className="m-0 p-0">
-                    <CityPhoto hotel={hotel} />
-                </Col>
-            </Row>
-        );
-
-    });
 
     const citiesRooms = HOTELS_INFO.map((hotel, i) => {
         return (
@@ -65,10 +54,9 @@ export default function Home(props) {
                     </Row>
                 </Col>
                 <Col md="8" className="text-center col-m-p">
-                    {citiesPhotos}
+                    <CityPhotoDisplay />
                 </Col>
             </Row>
         </Container>
     )
 };
-/* <Link color="secondary" size="sm" to="/search?city=all" >I don't want to choose!</Link>*/

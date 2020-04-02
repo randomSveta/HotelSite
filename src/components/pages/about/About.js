@@ -1,7 +1,8 @@
 import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
 import { Link } from 'react-router-dom';
-
+import AboutCityDisplay from './AboutCityDisplay';
+import '../../../styles-css/about.css'
 
 
 
@@ -10,8 +11,8 @@ function About(props) {
     const logoURL = require("../../../images/hotels-logo.png");
 
     return (
-        <Container className="p-0 my-0 mx-auto  container-home">
-            <Row className="m-0 p-0 row-home justify-content-left align-items-start">
+        <Container className="main-container">
+            <Row className="main-row justify-content-left align-items-start">
                 <Col md="2" className="text-center col-m-p">
                     <Row className="row-m-p row-height dark-bg justify-content-center align-items-center">
                         <Col xs="12" className="m-0 p-0">
@@ -32,7 +33,7 @@ function About(props) {
                     </Row>
                 </Col>
                 <Col md="9" className="text-center col-m-p">
-                    <Row className="row-m-p justify-content-center row-height align-items-center">
+                    <Row className="row-m-p row-height justify-content-center align-items-center">
                         <Col xs="12" className="m-0 p-0">
                             <h1>About "Good Hotels" Group</h1>
                             <p className="text-left m-0 p-0">
@@ -42,29 +43,9 @@ function About(props) {
                             </p>
                         </Col>
                     </Row>
-                    <Row className="row-m-p row-height justify-content-center align-items-center beige-bg">
-                        <Col xs="12" md="3" className="my-0">
-                            A
-                        </Col>
-                        <Col xs="12" md="3" className="my-0">
-                            A
-                        </Col>
-                        <Col xs="12" md="3" className="my-0">
-                            A
-                        </Col>
+                    <Row className="m-0 p-0 justify-content-center align-items-start">
+                        <AboutCityDisplay />
                     </Row>
-                    <Row className="row-m-p text-justify justify-content-center align-items-center beige-bg">
-                        <Col xs="12" md="3" className="col-m-p beige-bg">
-                            A
-                        </Col>
-                        <Col xs="12" md="3" className="col-m-p beige-bg">
-                            A
-                        </Col>
-                        <Col xs="12" md="3" className="col-m-p beige-bg">
-                            A
-                        </Col>
-                    </Row>
-
                 </Col>
             </Row>
         </Container>
