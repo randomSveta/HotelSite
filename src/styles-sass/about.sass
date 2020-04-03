@@ -1,3 +1,9 @@
-.a-col-m-p:nth-child(1) 
-    border-left: 5px solid transparent
-    border-right: 5px solid transparent
+@use 'colors'
+.about-row
+    @include colors.section-border-color(colors.$gold)
+
+img
+    &.about-photo
+        border-radius: 50%
+
+

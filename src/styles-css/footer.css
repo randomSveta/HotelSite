@@ -30,7 +30,10 @@
 }
 
 .row-height {
+  min-height: 6.25rem;
   height: calc((100vh - 4.375rem - 1.25rem)/ 3 - 1.25rem);
+  max-height: 25rem;
+  overflow: auto;
 }
 
 .row-m-p {
@@ -41,6 +44,18 @@
 .col-m-p {
   margin: 0.625rem;
   padding: 0.3125rem;
+}
+
+.p-m-p {
+  margin: 0.3125rem;
+  padding: 0.625rem;
+}
+
+.image-size {
+  min-height: 5.625rem;
+  height: calc(calc((100vh - 4.375rem - 1.25rem)/ 3 - 1.25rem) - 0.625rem);
+  max-width: 100%;
+  max-height: 20rem;
 }
 
 .dark-bg {
@@ -65,6 +80,18 @@
 
 .relative {
   position: relative;
+}
+
+.dark-link {
+  color: #262626;
+}
+
+.bright-link {
+  color: white;
+}
+
+.opacity-08 {
+  opacity: 0.8;
 }
 
 @media (max-width: 767px) {

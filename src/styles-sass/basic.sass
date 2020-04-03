@@ -33,7 +33,10 @@ html, body
   padding: 0 0 sizes.$footer-height-md 0
 
 .row-height
+  min-height: sizes.$row-min-height
   height: sizes.$row-height
+  max-height: 25rem
+  overflow: auto
 
 .row-m-p
   margin: 0 0 sizes.$margin 0
@@ -42,6 +45,16 @@ html, body
 .col-m-p
   margin: sizes.$margin
   padding: sizes.$padding
+
+.p-m-p
+  margin: sizes.$margin / 2
+  padding: sizes.$padding * 2
+
+.image-size
+  min-height: sizes.$row-image-min-height
+  height: sizes.$row-image-height
+  max-width: 100%
+  max-height: 20rem
 
 .dark-bg
   background-color: colors.$dark
@@ -60,6 +73,15 @@ html, body
 
 .relative
   position: relative
+
+.dark-link
+  color: colors.$dark
+
+.bright-link
+  color: colors.$white
+
+.opacity-08
+  opacity: 0.8
 
 @media (max-width: media-points.$layout-breakpoint-md)
   

@@ -1,4 +1,6 @@
+@use 'media-points'
 /* elements height */
+
 $margin: 0.625rem
 $padding: 0.3125rem
 $footer-height-md: 4.375rem
@@ -7,6 +9,13 @@ $body-min-height: 100vh
 $main-container-height: calc(#{$body-min-height} - #{$footer-height-md})
 $row-height: calc((#{$body-min-height} - #{$footer-height-md} - #{2*$margin})/ 3 - #{$padding*4})
 $row-image-height: calc(#{$row-height} - #{$padding * 2})
+$row-min-height: 6.25rem
+$row-image-min-height: $row-min-height - $margin
+
+@mixin reset-m-p
+    margin: 0
+    padding: 0
+
 
 //rems
     //16px - 1rem 
@@ -16,3 +25,5 @@ $row-image-height: calc(#{$row-height} - #{$padding * 2})
     // 50px - 3.125rem
     // 60px - 3.75rem 
     // 100px - 6.25rem
+
+

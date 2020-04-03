@@ -1,10 +1,5 @@
 /* colors */
 /* elements height */
-.image-size {
-  max-width: 100%;
-  max-height: calc(calc((100vh - 4.375rem - 1.25rem)/ 3 - 1.25rem) - 0.625rem);
-}
-
 #go-to-search {
   background-color: #262626;
   color: white;
