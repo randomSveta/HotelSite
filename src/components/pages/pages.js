@@ -2,7 +2,7 @@ import React from 'react';
 import Home from './home/Home';
 import Search from './search/Search';
 import About from './about/About';
-import Contacts from './contacts/Contact';
+import Contacts from './contacts/Contacts';
 import Gallery from "./gallery/Gallery";
 
 export const PAGES = [
