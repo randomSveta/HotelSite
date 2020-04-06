@@ -12,7 +12,7 @@ function About(props) {
     return (
         <Container className="main-container">
             <Row className="main-row justify-content-left align-items-start">
-                <Col md="2" className="text-center col-m-p">
+                <Col xs="12" md="2" className="text-center col-m-p">
                     <Row className="row-m-p row-height dark-bg text-white justify-content-center align-items-center">
                         <Col xs="12" className="m-0 p-0">
                             <p>Only today!</p>
@@ -32,7 +32,7 @@ function About(props) {
                         </Col>
                     </Row>
                 </Col>
-                <Col md="9" className="text-center col-m-p">
+                <Col xs="12" md="9" className="text-center col-m-p">
                     <Row className="row-m-p row-height justify-content-center align-items-center gold-bg">
                         <Col xs="12" className="m-0 p-0">
                             <h1 className="m-0 p-0">About "Good Hotels" Group</h1>
