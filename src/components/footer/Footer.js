@@ -4,6 +4,7 @@ import { Container, Row, Col } from 'reactstrap';
 import NavLinkButtonsGroup from '../navigation/NavLinkButtonsGroup';
 
 import "../../styles-css/footer.css";
+import FooterSocialIconsDisplay from './FooterSocialIconsDisplay';
 
 export default function Footer(props) {
 
@@ -17,7 +18,7 @@ export default function Footer(props) {
                         </ul>
                     </Col>
                     <Col xs="12" md="5" className="col-m-p text-center text-md-right ">
-                        <p className="m-0 p-0">good_hotels_group@random.sveta</p>
+                        <FooterSocialIconsDisplay place="footer" />
                     </Col>
                 </Row>
             </Container>
