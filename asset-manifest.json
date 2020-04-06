@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/hotel-website/static/css/main.841906d8.chunk.css",
-    "main.js": "/hotel-website/static/js/main.9cc2683d.chunk.js",
-    "main.js.map": "/hotel-website/static/js/main.9cc2683d.chunk.js.map",
+    "main.css": "/hotel-website/static/css/main.44c1e9ea.chunk.css",
+    "main.js": "/hotel-website/static/js/main.0217a52c.chunk.js",
+    "main.js.map": "/hotel-website/static/js/main.0217a52c.chunk.js.map",
     "runtime-main.js": "/hotel-website/static/js/runtime-main.6e0e9c64.js",
     "runtime-main.js.map": "/hotel-website/static/js/runtime-main.6e0e9c64.js.map",
     "static/css/2.69e2af68.chunk.css": "/hotel-website/static/css/2.69e2af68.chunk.css",
-    "static/js/2.789406e3.chunk.js": "/hotel-website/static/js/2.789406e3.chunk.js",
-    "static/js/2.789406e3.chunk.js.map": "/hotel-website/static/js/2.789406e3.chunk.js.map",
+    "static/js/2.33a8d03f.chunk.js": "/hotel-website/static/js/2.33a8d03f.chunk.js",
+    "static/js/2.33a8d03f.chunk.js.map": "/hotel-website/static/js/2.33a8d03f.chunk.js.map",
     "index.html": "/hotel-website/index.html",
-    "precache-manifest.4364afb907d7cf6c9ddf31921b6b544c.js": "/hotel-website/precache-manifest.4364afb907d7cf6c9ddf31921b6b544c.js",
+    "precache-manifest.e2025c9da6169a1d2dfb89802a4c9371.js": "/hotel-website/precache-manifest.e2025c9da6169a1d2dfb89802a4c9371.js",
     "service-worker.js": "/hotel-website/service-worker.js",
     "static/css/2.69e2af68.chunk.css.map": "/hotel-website/static/css/2.69e2af68.chunk.css.map",
-    "static/css/main.841906d8.chunk.css.map": "/hotel-website/static/css/main.841906d8.chunk.css.map",
-    "static/js/2.789406e3.chunk.js.LICENSE.txt": "/hotel-website/static/js/2.789406e3.chunk.js.LICENSE.txt",
+    "static/css/main.44c1e9ea.chunk.css.map": "/hotel-website/static/css/main.44c1e9ea.chunk.css.map",
+    "static/js/2.33a8d03f.chunk.js.LICENSE.txt": "/hotel-website/static/js/2.33a8d03f.chunk.js.LICENSE.txt",
     "static/media/good.png": "/hotel-website/static/media/good.41809629.png",
     "static/media/goodcity-about-300x300.png": "/hotel-website/static/media/goodcity-about-300x300.7b9bf584.png",
     "static/media/hotels-logo.png": "/hotel-website/static/media/hotels-logo.6f76f884.png",
@@ -25,8 +25,8 @@
   "entrypoints": [
     "static/js/runtime-main.6e0e9c64.js",
     "static/css/2.69e2af68.chunk.css",
-    "static/js/2.789406e3.chunk.js",
-    "static/css/main.841906d8.chunk.css",
-    "static/js/main.9cc2683d.chunk.js"
+    "static/js/2.33a8d03f.chunk.js",
+    "static/css/main.44c1e9ea.chunk.css",
+    "static/js/main.0217a52c.chunk.js"
   ]
 }
