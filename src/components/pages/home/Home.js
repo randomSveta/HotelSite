@@ -1,6 +1,5 @@
 import React from 'react';
 import { Container, Row, Col } from 'reactstrap'
-import { HOTELS_INFO } from "../../../hotels-data/hotels-info";
 import { Link } from "react-router-dom";
 import "../../../styles-css/home.css";
 import CityPhotoDisplay from './CityPhotosDisplay';

@@ -2,8 +2,6 @@ import React from 'react';
 import { Row, Col } from 'reactstrap';
 import { Link } from 'react-router-dom';
 
-import { HOTELS_INFO } from "../hotels-data/hotels-info";
-
 export default function CheckAllHotels(props) {
 
     /*  const cityRooms = HOTELS_INFO.map((hotel, i) => {
