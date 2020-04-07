@@ -8,7 +8,7 @@ export default function AboutCityArticles(props) {
 
     const aboutCityArticles = HOTELS_INFO.map((hotel, i) => {
         return (
-            <Col xs="12" md="4" key={i} id={"about-col-" + i} className="about-col">
+            <Col xs="12" md="4" key={i} id={"about-col-" + i} className="about-col bg-white">
                 <article className="">
                     <Link to={"/search?city=" + hotel.city.toLowerCase().replace(" ", "-")} className="dark-link" >
                         <h2 className="">{hotel.city}</h2>
@@ -20,7 +20,7 @@ export default function AboutCityArticles(props) {
                     </Row>
                     <Row className="m-0 p-0">
                         <Col xs="12" className="m-0 p-0 about-col">
-                            <p className="p-m-p text-left">{hotel.description}</p>
+                            <p className="text-left">{hotel.description}</p>
                         </Col>
                     </Row>
                 </article>

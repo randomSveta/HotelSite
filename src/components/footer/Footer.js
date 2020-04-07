@@ -9,15 +9,15 @@ import FooterSocialIconsDisplay from './FooterSocialIconsDisplay';
 export default function Footer(props) {
 
     return (
-        <footer id="footer" className='dark-bg text-white'>
+        <footer className='dark-bg text-white'>
             <Container className="main-container">
-                <Row className="main-row-f justify-content-left align-items-center">
+                <Row className="footer-main-row justify-content-center justify-content-lg-start align-items-center">
                     <Col xs="12" md="6" className="col-m-p text-center text-md-left">
                         <ul className="list-unstyled list-inline m-0 p-0">
                             <NavLinkButtonsGroup place="footer" />
                         </ul>
                     </Col>
-                    <Col xs="12" md="5" className="col-m-p text-center text-md-right ">
+                    <Col xs="12" md="6" lg="5" className="col-m-p text-center text-md-right">
                         <FooterSocialIconsDisplay place="footer" />
                     </Col>
                 </Row>

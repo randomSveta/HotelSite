@@ -3,19 +3,16 @@
 @use 'media-points'
 @import 'basic'
 
-.main-row-f
+footer
+  .main-container
+      height: 100%
+
+.footer-main-row
   @extend %main
-  min-height: sizes.$footer-height-md
   padding: 0
+  height: 100%
 
-#footer
-  position: absolute
-  bottom: 0
-  left: 0
-  width: 100%
-  height: sizes.$footer-height-md
-
-  .nav-link-footer
+.footer-nav-link
     margin: 0 sizes.$margin 0 0
     padding: sizes.$padding  sizes.$padding  sizes.$padding 0
     color: colors.$white
@@ -23,13 +20,6 @@
     &:hover
       text-decoration: underline
 
-.icon-footer
+.footer-icon
     font-size: 1rem
     color: colors.$white
-
-
-@media (max-width: media-points.$layout-breakpoint-md)
-  
-  #footer
-    height: sizes.$footer-height-xs
-  

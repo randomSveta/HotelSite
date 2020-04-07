@@ -4,13 +4,14 @@
 $margin: 0.625rem
 $padding: 0.3125rem
 $footer-height-md: 4.375rem
-$footer-height-xs: $footer-height-md * 2 + $margin + $padding
+$footer-height-xs: $footer-height-md * 2
 $body-min-height: 100vh
+$body-height: 40rem
 $main-container-height: calc(#{$body-min-height} - #{$footer-height-md})
-$row-height: calc((#{$body-min-height} - #{$footer-height-md} - #{2*$margin})/ 3 - #{$padding*4})
+$row-height: calc((#{$body-height} - #{$footer-height-md} - #{2*$margin})/ 3 - #{$padding*4})
 $row-image-height: calc(#{$row-height} - #{$padding * 2})
-$row-min-height: 6.25rem
-$row-image-min-height: $row-min-height - $margin
+// $row-min-height: 6.25rem 
+//$row-image-min-height: $row-min-height - $margin
 
 @mixin reset-m-p
     margin: 0

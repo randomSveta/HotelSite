@@ -1,6 +1,6 @@
 /* colors */
 /* elements height */
-#go-to-search {
+.show-all-button {
   background-color: #262626;
   color: white;
   padding: 0.625rem;
@@ -8,7 +8,7 @@
   border-radius: 0.3125rem;
 }
 
-.city-name-text {
+.city-name {
   position: absolute;
   bottom: 1.25rem;
   right: 0;

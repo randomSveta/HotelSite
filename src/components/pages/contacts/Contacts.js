@@ -27,7 +27,7 @@ function Contacts(props) {
                 </Col>
                 <Col md="9" className="text-center col-m-p">
                     <Row className="row-m-p row-height justify-content-center align-items-center gray-bg">
-                        <SocialIconsDisplay place="page" />
+                        <SocialIconsDisplay place="contacts" />
                     </Row>
                     <Row className="row-m-p row-height justify-content-center align-items-center gray-bg">
                         <Col xs="12" className="m-0 p-0">
@@ -38,7 +38,7 @@ function Contacts(props) {
                     </Row>
                     <Row className="row-m-p justify-content-center align-items-center blue-bg">
                         <Col xs="12" className="m-0 p-0">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d10879126.298538392!2d15.591168723803777!3d48.26366838416164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2suk!4v1586194236386!5m2!1sen!2suk" width="600" height="450" frameborder="0" style={{ border: 0 }} allowfullscreen="" aria-hidden="false" tabindex="0" title="Europe map"></iframe>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d10879126.298538392!2d15.591168723803777!3d48.26366838416164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2suk!4v1586194236386!5m2!1sen!2suk" width="600" height="450" frameBorder="0" style={{ border: 0 }} allowfullscreen="" aria-hidden="false" tabindex="0" title="Europe map"></iframe>
                         </Col>
                     </Row>
                     <Row className="row-m-p justify-content-center align-items-center blue-bg">

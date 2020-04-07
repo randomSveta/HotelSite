@@ -15,7 +15,7 @@ export default function CheckAllHotels(props) {
         <React.Fragment>
             <Row className="m-0 p-0 h-50 align-items-center">
                 <Col xs="12" className="m-0 p-0">
-                    <Link id="go-to-search" className="" to="/search">Check all hotels</Link>
+                    <Link className="show-all-button" to="/search">Check all hotels</Link>
                 </Col>
             </Row>
             {/* {<Row className="m-0 p-0 bg-white h-50 align-items-center justify-content-center" >

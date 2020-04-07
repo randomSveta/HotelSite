@@ -2,6 +2,7 @@
 @use 'sizes'
 
 $top: sizes.$margin + sizes.$padding
+$button-distance-factor: 3.75rem
 
 %side-navigation-buttons
 	position: absolute 
@@ -12,10 +13,10 @@ $top: sizes.$margin + sizes.$padding
 	margin: 0 
 	width: 6.25rem 
 	text-decoration: none 
-	font-size: 1.125rem 
+	font-size: 1rem 
 	border-radius: 0.3125rem 0 0 0.3125rem
 
-#side-navigation 
+.side-navigation 
 	position: fixed 
 	right: 0 
 	top: 0 
@@ -25,32 +26,40 @@ $top: sizes.$margin + sizes.$padding
 
 	.active 
 		right: 0 
-		background-color: colors.$blue 
 		color: colors.$dark
 		font-weight: bold 
 		
-	.nav-link-side
+	.side-nav-link
 		@extend %side-navigation-buttons
 		&:hover
 			right: 0
 
-#home-navlink-side
-	top: $top
+.side-nav-link
+	&:nth-child(1)
+		top: $top
+		&.active
+			background-color: colors.$blue 
 
-#search-navlink-side
-	top: $top + 3.75rem
+	&:nth-child(2)
+		top: $top + $button-distance-factor
+		&.active
+			background-color: colors.$blue 
 
-#about-navlink-side
-	top: $top + 7.5rem 
-	&.active 
-		background-color: colors.$gold 
+	&:nth-child(3)
+		top: $top + $button-distance-factor * 2
+		&.active 
+			background-color: colors.$gold 
 
-#gallery-navlink-side
-	top:   $top + 11.25rem
+	&:nth-child(4)
+		top: $top + $button-distance-factor * 3
+		&.active
+			background-color: colors.$blue 
 
-#contacts-navlink-side
-	top:  $top + 15rem 
+	&:nth-child(5)
+		top:  $top + $button-distance-factor * 4
+		&.active
+			background-color: colors.$blue  
 
-#login-button 
-	top:   $top + 18.75rem
+.login-button 
+	top:   $top + $button-distance-factor * 5
 	border: none 
