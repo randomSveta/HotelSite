@@ -1,6 +1,12 @@
 @use 'sizes'
 @use 'colors'
 
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Raleway&display=swap')
+
+
+%font-caveat
+  font-family: 'Caveat', 'Arial', sans-serif
+
 %main
   width: 100%
   margin: 0
@@ -17,6 +23,14 @@ html, body
 h1
    font-size: 2.5rem
 
+h1, h2
+  @extend %font-caveat
+  margin: 0
+  padding: sizes.$padding * 1.5
+
+h3
+  font-size: 1.125rem
+
 a
   color: colors.$dark
   &:hover
@@ -31,3 +45,6 @@ p
  font-family: 'Raleway', 'Arial', sans-serif
  font-size: 0.875rem
  position: relative
+
+ %border
+   border: 1px solid colors.$dark

@@ -1,12 +1,8 @@
 @use 'colors'
 @use 'sizes'
 @use 'media-points'
-@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Raleway&display=swap')
-@import 'tags-and-share'
+@use 'tags-and-share'
 
-
-.basic-font-caveat
-  font-family: 'Caveat', 'Arial', sans-serif
 
 .basic-main-container 
   @extend %main
@@ -48,10 +44,21 @@
 .basic-gold-bg
   background-color: colors.$gold
 
-.opacity-08
-  opacity: 0.8
+// .basic-border
+//   border-top: 1px solid colors.$dark
 
-@media (max-width: media-points.$layout-breakpoint-md)
+.basic-show-all-button
+  background-color: colors.$dark
+  color: colors.$white 
+  padding: sizes.$padding * 2
+  margin:  sizes.$margin * 2
+  border-radius: 0.3125rem 
+
+.basic-link-hover-gray
+  &:hover
+    color: colors.$gray
+
+@media (max-width: media-points.$layout-breakpoint-lg)
   
   footer
     height: sizes.$footer-height-xs
@@ -67,7 +74,7 @@
     margin: sizes.$margin
     padding: sizes.$padding
     &.xs
-      @include sizes.reset-m-p
+      +sizes.reset-m-p
 
   .basic-row-height
     &.xs-h

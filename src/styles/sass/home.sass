@@ -1,19 +1,29 @@
 @use 'colors'
 @use 'sizes'
+@use 'tags-and-share'
 
-.show-all-button
-	background-color: colors.$dark
-	color: colors.$white 
-	padding: sizes.$padding * 2
-	margin:  sizes.$margin * 2
-	border-radius: 0.3125rem 
 
-.city-name
+
+.home-city-name
 	position: absolute 
-	bottom: 1.25rem 
-	right: 0 
+	bottom: 15%
+	right: 40% 
 	margin: sizes.$margin 0 sizes.$margin sizes.$margin 
 	padding: sizes.$padding * 2 
-	border-radius: 0.3125rem 0 0 0.3125rem 
 	color: colors.$dark
-	font-weight: bold 
+	font-weight: bold
+	@extend %font-caveat
+	font-size: 3.125rem
+
+
+.home-city-image
+	background-position: top left
+	background-repeat: no-repeat 
+	background-size: cover
+	&:nth-child(1)
+		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/home-page/nice.png")
+	&:nth-child(2)
+		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/home-page/kind.png")
+	&:nth-child(3)
+		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/home-page/good.png")
+	

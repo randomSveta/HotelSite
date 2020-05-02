@@ -1,5 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Raleway&display=swap");
 /* colors */
 /* elements height */
+.side-navigation .side-nav-link, h1, h2 {
+  font-family: "Caveat", "Arial", sans-serif;
+}
+
+#root, html, body {
+  width: 100%;
+  margin: 0;
+  max-width: 100vw;
+}
+
+#root, html, body {
+  padding: 0;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h1, h2 {
+  margin: 0;
+  padding: 0.46875rem;
+}
+
+h3 {
+  font-size: 1.125rem;
+}
+
+a {
+  color: #262626;
+}
+a:hover {
+  color: #ffd480;
+}
+
+p {
+  margin: 0.3125rem;
+  padding: 0.625rem;
+}
+
+#root {
+  font-family: "Raleway", "Arial", sans-serif;
+  font-size: 0.875rem;
+  position: relative;
+}
 .side-navigation .side-nav-link {
   position: absolute;
   color: white;
@@ -30,35 +76,23 @@
   right: 0;
 }
 
+.side-nav-link.active {
+  background-color: #ffd480;
+}
 .side-nav-link:nth-child(1) {
   top: 0.9375rem;
-}
-.side-nav-link:nth-child(1).active {
-  background-color: #ffd480;
 }
 .side-nav-link:nth-child(2) {
   top: 4.6875rem;
 }
-.side-nav-link:nth-child(2).active {
-  background-color: #a8f0d8;
-}
 .side-nav-link:nth-child(3) {
   top: 8.4375rem;
-}
-.side-nav-link:nth-child(3).active {
-  background-color: #ffd480;
 }
 .side-nav-link:nth-child(4) {
   top: 12.1875rem;
 }
-.side-nav-link:nth-child(4).active {
-  background-color: #a8f0d8;
-}
 .side-nav-link:nth-child(5) {
   top: 15.9375rem;
-}
-.side-nav-link:nth-child(5).active {
-  background-color: #a8f0d8;
 }
 
 .side-nav-link.login-button {
