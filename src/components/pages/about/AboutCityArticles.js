@@ -10,8 +10,8 @@ export default function AboutCityArticles(props) {
         return (
             <Col xs="12" md="4" key={i} id={"about-col-" + i} className="about-col bg-white">
                 <article className="">
-                    <Link to={"/search?city=" + hotel.city.toLowerCase().replace(" ", "-")} className="dark-link" >
-                        <h2 className="">{hotel.city}</h2>
+                    <Link to={"/search?city=" + hotel.city.toLowerCase().replace(" ", "-")} className="basic-link-hover-gray" >
+                        <h2 className="basic-beige-bg">{hotel.city}</h2>
                     </Link>
                     <Row className="m-0 p-0 justify-content-center align-items-center">
                         <Col xs="12" className="basic-col-m-p img-col">

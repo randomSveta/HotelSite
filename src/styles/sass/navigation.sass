@@ -1,5 +1,6 @@
 @use 'colors'
 @use 'sizes'
+@use 'tags-and-share'
 
 $top: sizes.$margin + sizes.$padding
 $button-distance-factor: 3.75rem
@@ -15,6 +16,7 @@ $button-distance-factor: 3.75rem
 	text-decoration: none 
 	font-size: 1.625rem 
 	border-radius: 0.3125rem 0 0 0.3125rem
+	@extend %font-caveat
 
 .side-navigation 
 	position: fixed 
@@ -35,30 +37,23 @@ $button-distance-factor: 3.75rem
 			right: 0
 
 .side-nav-link
+	&.active
+			background-color: colors.$gold
 	&:nth-child(1)
 		top: $top
-		&.active
-			background-color: colors.$gold 
+	 
 
 	&:nth-child(2)
 		top: $top + $button-distance-factor
-		&.active
-			background-color: colors.$mint 
 
 	&:nth-child(3)
 		top: $top + $button-distance-factor * 2
-		&.active 
-			background-color: colors.$gold 
 
 	&:nth-child(4)
 		top: $top + $button-distance-factor * 3
-		&.active
-			background-color: colors.$mint 
 
 	&:nth-child(5)
 		top:  $top + $button-distance-factor * 4
-		&.active
-			background-color: colors.$mint  
 
 .side-nav-link.login-button 
 	top:   $top + $button-distance-factor * 5

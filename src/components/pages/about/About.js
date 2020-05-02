@@ -30,8 +30,8 @@ function About(props) {
                 </Col>
                 <Col xs="12" lg="9" className="text-center basic-col-m-p">
                     <Row className="m-0 p-0 justify-content-center align-items-center">
-                        <Col xs="12" className="basic-row-m-p basic-row-height xs-h basic-gold-bg d-flex flex-column justify-content-center align-items-center">
-                            <h1 className="m-0 p-0">About "Good Hotels" Group</h1>
+                        <Col xs="12" className="basic-row-m-p pt-0 basic-row-height xs-h basic-border d-flex flex-column justify-content-start align-items-center">
+                            <h1 className="w-100 basic-dark-bg text-white">About "Good Hotels" Group</h1>
                             <article>
                                 <p className="text-left">
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -40,14 +40,14 @@ function About(props) {
                                 </p>
                             </article>
                         </Col>
-                        <Col xs="12" className="basic-row-m-p basic-gold-bg d-flex flex-column justify-content-center align-items-center">
+                        <Col xs="12" className="basic-row-m-p pt-0 basic-border d-flex flex-column justify-content-center align-items-center">
                             <Row className="m-0 p-0">
                                 <AboutCityArticles />
                             </Row>
                         </Col>
-                        <Col xs="12" className="basic-row-m-p basic-gold-bg d-flex flex-column justify-content-center align-items-center">
+                        <Col xs="12" className="basic-row-m-p basic-border d-flex flex-column justify-content-center align-items-center">
                             <article className="bg-white">
-                                <h2 className="m-0 p-0 w-100 basic-gold-bg">More about us...</h2>
+                                <h2 className="w-100 basic-beige-bg">More about us...</h2>
                                 <p className="text-left">
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                     Suspendisse nec rhoncus ipsum. Praesent molestie nulla at lorem semper,

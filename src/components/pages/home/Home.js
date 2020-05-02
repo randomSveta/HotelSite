@@ -20,7 +20,7 @@ export default function Home(props) {
                             <h1 className="basic-font-caveat">Welcome!</h1>
                             <h3>choose the city</h3>
                         </Col>
-                        <Col xs="6" lg="12" className="basic-row-m-p xs basic-row-height basic-pink-bg d-flex flex-column justify-content-center align-items-center">
+                        <Col xs="6" lg="12" className="basic-row-m-p xs basic-row-height basic-beige-bg d-flex flex-column justify-content-center align-items-center">
                             <CheckAllHotels />
                         </Col>
                         <Col xs="6" lg="12" className="basic-row-m-p xs basic-row-height basic-mint-bg d-flex flex-column justify-content-center align-items-center">

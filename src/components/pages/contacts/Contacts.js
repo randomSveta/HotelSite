@@ -15,7 +15,7 @@ function Contacts(props) {
                             A
                         </Col>
                     </Row>
-                    <Row className="basic-row-m-p basic-row-height basic-pink-bg justify-content-center align-items-center">
+                    <Row className="basic-row-m-p basic-row-height basic-beige-bg justify-content-center align-items-center">
                         <Col xs="12" className="m-0 p-0">
                             B
                         </Col>
@@ -27,10 +27,10 @@ function Contacts(props) {
                     </Row>
                 </Col>
                 <Col md="9" className="text-center basic-col-m-p">
-                    <Row className="basic-row-m-p basic-row-height justify-content-center align-items-center basic-pink-bg">
+                    <Row className="basic-row-m-p basic-row-height justify-content-center align-items-center basic-beige-bg">
                         <SocialIconsDisplay place="contacts" />
                     </Row>
-                    <Row className="basic-row-m-p basic-row-height justify-content-center align-items-center basic-pink-bg">
+                    <Row className="basic-row-m-p basic-row-height justify-content-center align-items-center basic-beige-bg">
                         <Col xs="12" className="m-0 p-0">
                             <address>
                                 AAAA
