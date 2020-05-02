@@ -12,12 +12,12 @@ export default function Footer(props) {
         <footer className='basic-dark-bg text-white'>
             <Container className="basic-main-container">
                 <Row className="footer-main-row justify-content-center justify-content-lg-start align-items-center">
-                    <Col xs="12" md="6" className="basic-col-m-p text-center text-md-left">
+                    <Col xs="12" lg="6" className="basic-col-m-p text-center text-lg-left">
                         <ul className="list-unstyled list-inline m-0 p-0">
                             <NavLinkButtonsGroup place="footer" />
                         </ul>
                     </Col>
-                    <Col xs="12" md="6" lg="5" className="basic-col-m-p text-center text-md-right">
+                    <Col xs="12" lg="5" className="basic-col-m-p text-center text-lg-right">
                         <FooterSocialIconsDisplay place="footer" />
                     </Col>
                 </Row>
