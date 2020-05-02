@@ -6,7 +6,7 @@ export default function FooterSocialIconsDisplay(props) {
 
     const icons = SOCIAL_LINKS.map((socialIcon, i) => {
         return (
-            <li className="list-inline-item" key={i}>
+            <li className="list-inline-item footer-icon-margin" key={i}>
                 <SocialIcon socialIcon={socialIcon} place={props.place} />
             </li>
         );

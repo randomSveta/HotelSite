@@ -1,34 +1,35 @@
-import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+import { faHotel, faMailBulk } from '@fortawesome/free-solid-svg-icons'
+import { faFacebook, faInstagram, faTripadvisor, faTwitter } from '@fortawesome/free-brands-svg-icons'
 
 export const SOCIAL_LINKS = [
     {
         url: "https://github.com/randomSveta/hotel-website",
-        icon: faCoffee,
+        icon: faFacebook,
         title: "FaceBook"
     },
     {
         url: "https://github.com/randomSveta/hotel-website",
-        icon: faCoffee,
+        icon: faInstagram,
         title: "Instagram"
     },
     {
         url: "https://github.com/randomSveta/hotel-website",
-        icon: faCoffee,
+        icon: faHotel,
         title: "Booking"
     },
     {
         url: "https://github.com/randomSveta/hotel-website",
-        icon: faCoffee,
+        icon: faTripadvisor,
         title: "Tripadvisor"
     },
     {
         url: "https://github.com/randomSveta/hotel-website",
-        icon: faCoffee,
+        icon: faTwitter,
         title: "Twitter"
     },
     {
         url: "https://github.com/randomSveta/hotel-website",
-        icon: faCoffee,
+        icon: faMailBulk,
         title: "Email"
     },
 
@@ -37,22 +38,22 @@ export const SOCIAL_LINKS = [
 export const SOCIAL_LINKS_NICE = [
     {
         url: "https://github.com/randomSveta/hotel-website",
-        icon: faCoffee,
+        icon: faFacebook,
         title: "FaceBook"
     },
     {
         url: "https://github.com/randomSveta/hotel-website",
-        icon: faCoffee,
+        icon: faFacebook,
         title: "FaceBook"
     },
     {
         url: "https://github.com/randomSveta/hotel-website",
-        icon: faCoffee,
+        icon: faFacebook,
         title: "FaceBook"
     },
     {
         url: "https://github.com/randomSveta/hotel-website",
-        icon: faCoffee,
+        icon: faFacebook,
         title: "FaceBook"
     },
 
@@ -61,22 +62,22 @@ export const SOCIAL_LINKS_NICE = [
 export const SOCIAL_LINKS_KIND = [
     {
         url: "https://github.com/randomSveta/hotel-website",
-        icon: faCoffee,
+        icon: faFacebook,
         title: "FaceBook"
     },
     {
         url: "https://github.com/randomSveta/hotel-website",
-        icon: faCoffee,
+        icon: faFacebook,
         title: "FaceBook"
     },
     {
         url: "https://github.com/randomSveta/hotel-website",
-        icon: faCoffee,
+        icon: faFacebook,
         title: "FaceBook"
     },
     {
         url: "https://github.com/randomSveta/hotel-website",
-        icon: faCoffee,
+        icon: faFacebook,
         title: "FaceBook"
     },
 
@@ -85,22 +86,22 @@ export const SOCIAL_LINKS_KIND = [
 export const SOCIAL_LINKS_GOOD = [
     {
         url: "https://github.com/randomSveta/hotel-website",
-        icon: faCoffee,
+        icon: faFacebook,
         title: "FaceBook"
     },
     {
         url: "https://github.com/randomSveta/hotel-website",
-        icon: faCoffee,
+        icon: faFacebook,
         title: "FaceBook"
     },
     {
         url: "https://github.com/randomSveta/hotel-website",
-        icon: faCoffee,
+        icon: faFacebook,
         title: "FaceBook"
     },
     {
         url: "https://github.com/randomSveta/hotel-website",
-        icon: faCoffee,
+        icon: faFacebook,
         title: "FaceBook"
     },
 

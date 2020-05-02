@@ -1,7 +1,12 @@
-/* colors */
-/* elements height */
 /* elements height */
 /* colors */
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Raleway&display=swap");
+/* colors */
+/* elements height */
+h1, h2 {
+  font-family: "Caveat", "Arial", sans-serif;
+}
+
 .footer-main-row, #root, html, body {
   width: 100%;
   margin: 0;
@@ -15,6 +20,15 @@
 
 h1 {
   font-size: 2.5rem;
+}
+
+h1, h2 {
+  margin: 0;
+  padding: 0.46875rem;
+}
+
+h3 {
+  font-size: 1.125rem;
 }
 
 a {
@@ -34,13 +48,12 @@ p {
   font-size: 0.875rem;
   position: relative;
 }
-
 footer {
   position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 4.375rem;
+  height: 6.25rem;
 }
 footer .basic-main-container {
   height: 100%;
@@ -60,14 +73,20 @@ footer .basic-main-container {
   text-decoration: underline;
 }
 
-.footer-icon {
-  font-size: 1rem;
+.footer-icon-margin {
+  margin: 0 0.9375rem;
+}
+.footer-icon-margin .footer-icon {
+  font-size: 2rem;
   color: white;
 }
+.footer-icon-margin .footer-icon:hover {
+  color: #ffd480;
+}
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   footer {
-    height: 8.75rem;
+    height: 12.5rem;
   }
 }
 

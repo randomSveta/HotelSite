@@ -24,12 +24,16 @@ footer
     
     &:hover
       text-decoration: underline
-
-.footer-icon
-    font-size: 1rem
+.footer-icon-margin
+  margin: 0 sizes.$margin * 1.5
+  .footer-icon
+    font-size: 2rem
     color: colors.$white
+    &:hover
+      color: colors.$gold
 
-@media (max-width: media-points.$layout-breakpoint-md)
+
+@media (max-width: media-points.$layout-breakpoint-lg)
   
   footer
     height: sizes.$footer-height-xs
