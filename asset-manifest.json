@@ -1,32 +1,30 @@
 {
   "files": {
-    "main.css": "/hotel-website/static/css/main.a7a9fb86.chunk.css",
-    "main.js": "/hotel-website/static/js/main.973e16e9.chunk.js",
-    "main.js.map": "/hotel-website/static/js/main.973e16e9.chunk.js.map",
+    "main.css": "/hotel-website/static/css/main.4fe14f42.chunk.css",
+    "main.js": "/hotel-website/static/js/main.eea693f2.chunk.js",
+    "main.js.map": "/hotel-website/static/js/main.eea693f2.chunk.js.map",
     "runtime-main.js": "/hotel-website/static/js/runtime-main.6e0e9c64.js",
     "runtime-main.js.map": "/hotel-website/static/js/runtime-main.6e0e9c64.js.map",
     "static/css/2.69e2af68.chunk.css": "/hotel-website/static/css/2.69e2af68.chunk.css",
-    "static/js/2.21acc518.chunk.js": "/hotel-website/static/js/2.21acc518.chunk.js",
-    "static/js/2.21acc518.chunk.js.map": "/hotel-website/static/js/2.21acc518.chunk.js.map",
+    "static/js/2.fef03560.chunk.js": "/hotel-website/static/js/2.fef03560.chunk.js",
+    "static/js/2.fef03560.chunk.js.map": "/hotel-website/static/js/2.fef03560.chunk.js.map",
     "index.html": "/hotel-website/index.html",
-    "precache-manifest.49304ce6f6871811cc5d04ffc175a5af.js": "/hotel-website/precache-manifest.49304ce6f6871811cc5d04ffc175a5af.js",
+    "precache-manifest.8b6d63f1429a0fc34ab62fe708bdfebe.js": "/hotel-website/precache-manifest.8b6d63f1429a0fc34ab62fe708bdfebe.js",
     "service-worker.js": "/hotel-website/service-worker.js",
     "static/css/2.69e2af68.chunk.css.map": "/hotel-website/static/css/2.69e2af68.chunk.css.map",
-    "static/css/main.a7a9fb86.chunk.css.map": "/hotel-website/static/css/main.a7a9fb86.chunk.css.map",
-    "static/js/2.21acc518.chunk.js.LICENSE.txt": "/hotel-website/static/js/2.21acc518.chunk.js.LICENSE.txt",
-    "static/media/good.png": "/hotel-website/static/media/good.41809629.png",
+    "static/css/main.4fe14f42.chunk.css.map": "/hotel-website/static/css/main.4fe14f42.chunk.css.map",
+    "static/js/2.fef03560.chunk.js.LICENSE.txt": "/hotel-website/static/js/2.fef03560.chunk.js.LICENSE.txt",
+    "static/media/home.css": "/hotel-website/static/media/nice.059a7e39.png",
     "static/media/goodcity-about-300x300.png": "/hotel-website/static/media/goodcity-about-300x300.7b9bf584.png",
     "static/media/hotels-logo.png": "/hotel-website/static/media/hotels-logo.6f76f884.png",
-    "static/media/kind.png": "/hotel-website/static/media/kind.696cd2ac.png",
     "static/media/kindcity-about-300x300.png": "/hotel-website/static/media/kindcity-about-300x300.aebee65b.png",
-    "static/media/nice.png": "/hotel-website/static/media/nice.059a7e39.png",
     "static/media/nicecity-about-300x300.png": "/hotel-website/static/media/nicecity-about-300x300.819cceaa.png"
   },
   "entrypoints": [
     "static/js/runtime-main.6e0e9c64.js",
     "static/css/2.69e2af68.chunk.css",
-    "static/js/2.21acc518.chunk.js",
-    "static/css/main.a7a9fb86.chunk.css",
-    "static/js/main.973e16e9.chunk.js"
+    "static/js/2.fef03560.chunk.js",
+    "static/css/main.4fe14f42.chunk.css",
+    "static/js/main.eea693f2.chunk.js"
   ]
 }
