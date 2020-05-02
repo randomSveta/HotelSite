@@ -9,11 +9,11 @@ $button-distance-factor: 3.75rem
 	color: colors.$white 
 	right: -3.125rem 
 	transition: 0.5s 
-	padding: sizes.$padding * 2  
+	padding: sizes.$padding sizes.$padding sizes.$padding sizes.$padding * 2
 	margin: 0 
 	width: 6.25rem 
 	text-decoration: none 
-	font-size: 1rem 
+	font-size: 1.625rem 
 	border-radius: 0.3125rem 0 0 0.3125rem
 
 .side-navigation 
@@ -38,12 +38,12 @@ $button-distance-factor: 3.75rem
 	&:nth-child(1)
 		top: $top
 		&.active
-			background-color: colors.$blue 
+			background-color: colors.$gold 
 
 	&:nth-child(2)
 		top: $top + $button-distance-factor
 		&.active
-			background-color: colors.$blue 
+			background-color: colors.$mint 
 
 	&:nth-child(3)
 		top: $top + $button-distance-factor * 2
@@ -53,13 +53,14 @@ $button-distance-factor: 3.75rem
 	&:nth-child(4)
 		top: $top + $button-distance-factor * 3
 		&.active
-			background-color: colors.$blue 
+			background-color: colors.$mint 
 
 	&:nth-child(5)
 		top:  $top + $button-distance-factor * 4
 		&.active
-			background-color: colors.$blue  
+			background-color: colors.$mint  
 
-.login-button 
+.side-nav-link.login-button 
 	top:   $top + $button-distance-factor * 5
 	border: none 
+	color: colors.$dark

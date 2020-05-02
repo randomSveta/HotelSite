@@ -2,7 +2,7 @@ import React from 'react';
 import NavLinkButtonsGroup from './NavLinkButtonsGroup';
 
 
-import "../../styles-css/navigation.css";
+import "../../styles/css/navigation.css";
 
 
 export default class NavBar extends React.Component {
@@ -28,7 +28,7 @@ export default class NavBar extends React.Component {
       <React.Fragment>
         <nav className="side-navigation overflow-hidden">
           <NavLinkButtonsGroup place="side" />
-          <button className="side-nav-link login-button gray-bg">Login</button>
+          <button className="side-nav-link login-button basic-mint-bg basic-font-caveat text-left">Login</button>
         </nav>
       </React.Fragment >
     );

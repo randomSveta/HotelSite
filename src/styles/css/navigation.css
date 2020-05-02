@@ -5,11 +5,11 @@
   color: white;
   right: -3.125rem;
   transition: 0.5s;
-  padding: 0.625rem;
+  padding: 0.3125rem 0.3125rem 0.3125rem 0.625rem;
   margin: 0;
   width: 6.25rem;
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 1.625rem;
   border-radius: 0.3125rem 0 0 0.3125rem;
 }
 
@@ -34,36 +34,37 @@
   top: 0.9375rem;
 }
 .side-nav-link:nth-child(1).active {
-  background-color: #d4e7f7;
+  background-color: #ffd480;
 }
 .side-nav-link:nth-child(2) {
   top: 4.6875rem;
 }
 .side-nav-link:nth-child(2).active {
-  background-color: #d4e7f7;
+  background-color: #a8f0d8;
 }
 .side-nav-link:nth-child(3) {
   top: 8.4375rem;
 }
 .side-nav-link:nth-child(3).active {
-  background-color: #e9b563;
+  background-color: #ffd480;
 }
 .side-nav-link:nth-child(4) {
   top: 12.1875rem;
 }
 .side-nav-link:nth-child(4).active {
-  background-color: #d4e7f7;
+  background-color: #a8f0d8;
 }
 .side-nav-link:nth-child(5) {
   top: 15.9375rem;
 }
 .side-nav-link:nth-child(5).active {
-  background-color: #d4e7f7;
+  background-color: #a8f0d8;
 }
 
-.login-button {
+.side-nav-link.login-button {
   top: 19.6875rem;
   border: none;
+  color: #262626;
 }
 
 /*# sourceMappingURL=navigation.css.map */

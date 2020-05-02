@@ -1,89 +1,52 @@
 @use 'colors'
 @use 'sizes'
 @use 'media-points'
-@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Raleway&display=swap')
+@import 'tags-and-share'
 
 
-%main
-  width: 100%
-  margin: 0
-  max-width: 100vw
+.basic-font-caveat
+  font-family: 'Caveat', 'Arial', sans-serif
 
-%body
-  @extend %main
-  padding: 0
-  min-height: sizes.$body-min-height
-
-html, body
-  @extend %body
-
-h1
-   font-size: 1.875rem
-
-a
-  color: colors.$dark
-  &:hover
-    color: colors.$gold
-
-p 
-  margin: sizes.$margin / 2
-  padding: sizes.$padding * 2
-
-footer
-  position: absolute
-  bottom: 0
-  left: 0
-  width: 100%
-  height: sizes.$footer-height-md
-
-#root
- @extend %body
- font-family: 'Quicksand', 'Arial', sans-serif
- font-size: 0.875rem
- position: relative
-
-.main-container 
+.basic-main-container 
   @extend %main
   padding: 0 5vw
   
-.main-row
+.basic-main-row
   @extend %main
   min-height: sizes.$body-min-height
   padding: 0 0 sizes.$footer-height-md 0
 
-.row-height
+.basic-row-height
   height: sizes.$row-height
 
-.row-m-p
+.basic-row-m-p
   margin: 0 0 sizes.$margin 0
   padding: sizes.$padding
 
-.col-m-p
+.basic-col-m-p
   margin: sizes.$margin
   padding: sizes.$padding
 
-.image-size
+.basic-image-size
   height: auto
   max-width: 100%
   max-height: sizes.$row-image-height
 
-.dark-bg
+.basic-dark-bg
   background-color: colors.$dark
 
-.gray-bg
-  background-color: colors.$gray
+.basic-pink-bg
+  background-color: colors.$pink
 
-.blue-bg
-  background-color: colors.$blue
+.basic-mint-bg
+  background-color: colors.$mint
 
-.beige-bg
+.basic-beige-bg
   background-color: colors.$beige
 
-.gold-bg
+.basic-gold-bg
   background-color: colors.$gold
-
-.relative
-  position: relative
 
 .opacity-08
   opacity: 0.8
@@ -93,19 +56,19 @@ footer
   footer
     height: sizes.$footer-height-xs
 
-  .main-row
+  .basic-main-row
     padding: 0 0 sizes.$footer-height-xs 0
 
-  .col-m-p
+  .basic-col-m-p
     margin: sizes.$margin 0
     padding: sizes.$padding
 
-  .row-m-p
+  .basic-row-m-p
     margin: sizes.$margin
     padding: sizes.$padding
     &.xs
       @include sizes.reset-m-p
 
-  .row-height
+  .basic-row-height
     &.xs-h
       height: 100%

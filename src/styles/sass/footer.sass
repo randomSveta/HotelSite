@@ -1,10 +1,15 @@
 @use 'colors'
 @use 'sizes'
 @use 'media-points'
-@import 'basic'
+@import 'tags-and-share'
 
 footer
-  .main-container
+  position: absolute
+  bottom: 0
+  left: 0
+  width: 100%
+  height: sizes.$footer-height-md
+  .basic-main-container
       height: 100%
 
 .footer-main-row
@@ -23,3 +28,8 @@ footer
 .footer-icon
     font-size: 1rem
     color: colors.$white
+
+@media (max-width: media-points.$layout-breakpoint-md)
+  
+  footer
+    height: sizes.$footer-height-xs

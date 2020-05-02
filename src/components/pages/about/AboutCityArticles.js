@@ -14,7 +14,7 @@ export default function AboutCityArticles(props) {
                         <h2 className="">{hotel.city}</h2>
                     </Link>
                     <Row className="m-0 p-0 justify-content-center align-items-center">
-                        <Col xs="12" className="col-m-p img-col">
+                        <Col xs="12" className="basic-col-m-p img-col">
                             <AboutCityPhoto hotel={hotel} />
                         </Col>
                     </Row>

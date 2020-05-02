@@ -1,0 +1,33 @@
+@use 'sizes'
+@use 'colors'
+
+%main
+  width: 100%
+  margin: 0
+  max-width: 100vw
+
+%body
+  @extend %main
+  padding: 0
+  min-height: sizes.$body-min-height
+
+html, body
+  @extend %body
+
+h1
+   font-size: 2.5rem
+
+a
+  color: colors.$dark
+  &:hover
+    color: colors.$gold
+
+p 
+  margin: sizes.$margin / 2
+  padding: sizes.$padding * 2
+
+#root
+ @extend %body
+ font-family: 'Raleway', 'Arial', sans-serif
+ font-size: 0.875rem
+ position: relative
